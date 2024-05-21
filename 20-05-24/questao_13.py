@@ -8,6 +8,7 @@
 # Instutor: Bruno
 # Autor: Higor Stanley
 
+# Função para checar se o input do usuário é número:
 def e_numero(string):
     try:
         if string.isnumeric():
@@ -19,8 +20,12 @@ def e_numero(string):
     except ValueError:
         return False
 
+# Função para checar se o input do usuário é uma string:
 def e_letra(string):
     try:
         if string.isStr():
             string = str
             while True:
+
+
+# Programa em loop para validar o input:

@@ -5,26 +5,32 @@
 # Instutor: Bruno
 # Autor: Higor Stanley
 
+# Função para checar se o input do usuário e número:
 def e_numero(string):
     try:
         if string.isnumeric():
-            formata_int = int(string)
+            string = int(string)
             return True
         else:
-            formata_float = float(string)
+            string = float(string)
             return True
     except ValueError:
         return False
 
+# Programa em loop para validar o input:
 while True:
     km = input("Insira a quantidade de KM em que deseja percorer: ")
+    # Usa a função 'e_numero' para validar o input do usuário:
     if e_numero(km):
         km = float(km)
+        # Caso a quilometragem seja igual o menor que 200:
         if km <= 200:
             print(f"O preco da passagem sera de: R${km*0.50}")
             break
+        # Caso a quilometragem seja maior que 200 aplicar outra tarifa:
         elif km > 200:
             print(f"O preco da passagem sera de: R${km*0.45}")
             break
+    # Caso o input não seja numérico:
     else:
-        print("Insira um valor numerico")
+        print("ALERTA! Insira um valor com números. Tente novamente!")

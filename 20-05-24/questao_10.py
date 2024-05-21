@@ -7,6 +7,7 @@
 # Instutor: Bruno
 # Autor: Higor Stanley
 
+# Função para checar se o input do usuário e número:
 def e_numero(string):
     try:
         if string.isnumeric():
@@ -17,23 +18,30 @@ def e_numero(string):
             return False # Colocamos False para termos apenas valores inteiros
     except ValueError:
         return False
-    
+
+# Programa em loop para validar o input:
 while True:
     valor1 = input("Insira o primeiro valor a ser comparado: ")
+    # Usa a função 'e_numero' para validar o input do usuário:
     if e_numero(valor1):
         valor1 = int(valor1)
         while True:
             valor2 = input("Insira o segundo valor a ser comparado: ")
+            # Usa a função 'e_numero' para validar o input do usuário:
             if e_numero(valor2):
                 valor2 = int(valor2)
+                # Caso o primeiro valor inserido seja mairor:
                 if valor1 > valor2:
-                    print(f"O primeiro valor {valor1} e maior")
+                    print(f"O primeiro valor {valor1} é maior.")
                     break
+                # Caso o segundo valor inserido seja maior:
                 elif valor2 > valor1:
-                    print(f"O segundo valor {valor2} e maior")
+                    print(f"O segundo valor {valor2} é maior.")
                     break
+            # Caso o input não seja numérico:
             else:
-                print("Insira um valor inteiro para o segundo valor")
+                print("ALERTA! Insira um valor inteiro para o segundo valor. Tente novamente!")
         break
+    # Caso o input não seja numérico:
     else:
-        print("Insira um valor inteiro para o primeiro valor")
+        print("ALERTA! Insira um valor inteiro para o primeiro valor. Tente novamente!")

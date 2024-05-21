@@ -7,6 +7,7 @@
 # Autor: Higor Stanley
 
 # ERRO NA DEF
+# Função para checar se o input do usuário e número:
 def e_numero(string):
     try:
         if string.isnumeric():
@@ -17,29 +18,36 @@ def e_numero(string):
             return True
     except ValueError:
         return False
-    
+
+# Programa em loop para validar o input:
 while True:
     a, b, c = input("Insira o seguimentos da reta serapados por ',': ").split(',')
-
+    # Usa a função 'e_numero' para validar o input do usuário:
     if e_numero(a):
         a = float(a)
+        # Loop novamente para validar o segundo input:
         while True:
+            # Usa a função 'e_numero' para validar o input do usuário:
             if e_numero(b):
                 b = float(b)
                 while True:
                     if e_numero(c):
                         c = float(c)
+                        # Caso os valores sejam, o comprimento seja menor que os outros dois:
                         if a < b + c or b < a + c or c < b + a:
-                            print("E possivel fazer um triangulo com os valores fornecidos")
+                            print("É possível fazer um triângulo com os valores fornecidos.")
                             break
                         else:
-                            print("NAO e possivel fazer um triangulo comos valores fornecidos")
+                            print("NÃO e possível fazer um triângulo comos valores fornecidos.")
                             break
+                    # Caso o input não seja numérico:
                     else:
-                        print("Insira um valor numerico para C")
+                        print("ALERTA! Insira um valor com números para C. Tente novamente!")
                 break
+            # Caso o input não seja numérico:
             else:
-                print("Insira um valor numerico para B")
+                print("ALERTA! Insira um valor com números para B. Tente novamente!")
         break
+    # Caso o input não seja numérico:
     else:
-        print("Insira um valor numerico para A")
+        print("ALERTA! Insira um valor com números para A. Tente novamente!")

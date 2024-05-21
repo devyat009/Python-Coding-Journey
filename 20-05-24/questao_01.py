@@ -7,7 +7,7 @@
 
 import math;
 
-# Funcao para checar se o input e numero
+# Função para checar se o input do usuário e número:
 def e_numero(string):
     try:
         if string.isnumeric():
@@ -19,19 +19,27 @@ def e_numero(string):
     except ValueError:
         return False
 
+# Programa em loop para validar o input:
 while True:   
-    velocidade = input("Insira a velocidade do carro: ")
-    # Valida 
+    velocidade = input("Insira a velocidade do veículo: ")
+    # Usa a função 'e_numero' para validar o input do usuário:
     if e_numero(velocidade):
         velocidade = float(velocidade)
+        # Caso a velocidade for acima de 80 multar:
         if velocidade > 80:
             multa = (velocidade - 80) * 5
-            print(f"Seu veiculo foi multado em R${multa} por trafegar em velocidade acima da permitida")
+            print(f"Seu veículo foi multado em R${multa} por trafegar em velocidade acima da permitida.")
+            break
+        # Caso a velocidade seja negativa:
         elif velocidade < 0:
             print("Insira um valor acima de 0")
+            break
+        # Caso o veículo esteja parado:
         elif velocidade == 0:
-            print("O carro esta parado") 
+            print("O carro está parado")
+            break
         else:
-            print("A velocidade esta dentro do limite da via")
+            print("A velocidade está dentro do limite da via.")
+    # Caso o input não seja numérico:
     else:
-        print("Insira uma velocidade com numeros e tente novamente")
+        print("ALERTA! Insira uma velocidade com números. Tente novamente!")
