@@ -11,6 +11,7 @@
 # Instutor: Bruno
 # Autor: Higor Stanley
 
+# Função para checar se o input do usuário é número:
 def e_numero(string):
     try:
         if string.isnumeric():
