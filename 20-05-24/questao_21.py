@@ -40,7 +40,7 @@ def e_letra(string):
     
 # Programa em loop para validar o input:
 while True:
-    salario = input("insira salario: ")
+    salario = input("Insira salario: ")
     if e_numero(salario):
         salario = float(salario)
         while True:
