@@ -20,7 +20,7 @@ def e_numero(string):
         return False
 
 # Programa em loop para validar o input:
-while True:   
+while True:
     velocidade = input("Insira a velocidade do veículo: ")
     # Usa a função 'e_numero' para validar o input do usuário:
     if e_numero(velocidade):

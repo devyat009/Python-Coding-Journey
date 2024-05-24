@@ -16,7 +16,7 @@ def e_numero(string):
     except ValueError:
         return False
 # Programa em loop para validar o input:
-while True:  
+while True:
     ano_nascimento = input("Insira seu ano de nascimento para saber se pode votar: ")
     # Usa a função 'e_numero' para validar o input do usuário:
     if e_numero(ano_nascimento):

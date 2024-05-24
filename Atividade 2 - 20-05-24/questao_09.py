@@ -43,11 +43,14 @@ while True:
                     # Caso o input não seja numérico:
                     else:
                         print("ALERTA! Insira um valor com números para C. Tente novamente!")
+                        c = input("\n Qual o valor de C: ")
                 break
             # Caso o input não seja numérico:
             else:
                 print("ALERTA! Insira um valor com números para B. Tente novamente!")
+                b = input("\n Qual o valor de B: ")
         break
     # Caso o input não seja numérico:
     else:
         print("ALERTA! Insira um valor com números para A. Tente novamente!")
+        a = input("\n Qual o valor de A: ")

@@ -17,6 +17,7 @@ def e_numero(string):
             return True
     except ValueError:
         return False
+    
 # Programa em loop para validar o input:
 while True:
     ano_nascimento = input("Insira seu ano de nascimento para saber sua situação em relação ao alistamento militar: ")

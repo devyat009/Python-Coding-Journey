@@ -40,6 +40,7 @@ while True:
         # Usa a função 'bissexto' para validar se é um ano bissexto:
         if bissexto(ano):
             print("O ano é bissexto.")
+        # Caso não seja um ano bissexto:
         else:
             print("Não é um ano bissexto.")
     # Caso o input não seja numérico:
