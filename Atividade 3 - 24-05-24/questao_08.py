@@ -4,4 +4,15 @@
 # Instrutor: Brunno
 # Autor: Higor Stanley
 
-quantidade = float(input('Insira a quantidade de produtos que dejesa inserir o preço: '))
+# Pede as informações para o usuário:
+quantidade = int(input('Insira a quantidade de produtos que dejesa inserir o preço: '))
+produtos = []
+
+for i in range(0, quantidade):
+    produ = float(input(f'Insira o preço do produto {i+1}: R$ '))
+    produtos.append(produ)
+    produtos.sort()
+
+# A respota do programa:
+print(f'O menor preço foi de: R${produtos[0]}')
+print(f'O maior preço foi de: R${produtos[-1]}')
