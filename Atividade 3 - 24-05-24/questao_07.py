@@ -15,6 +15,7 @@ sorteados = []
 divisivel = []
 acimaCinco = []
 
+# Sorteio do programa
 for i in range(20):
     numero_sorteado = random.randint(0, 10)
     sorteados.append(numero_sorteado)
