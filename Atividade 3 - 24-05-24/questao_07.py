@@ -26,9 +26,3 @@ for i in range(20):
 # Resposta do programa:
 print(f'Os números que são acima de cinco: {acimaCinco}', end=' ')
 print(f'\nOs números que são divisíveis: {divisivel}', end=' ')
-
-    
-        
-    
-    
-    
