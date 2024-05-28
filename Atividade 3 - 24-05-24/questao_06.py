@@ -9,6 +9,7 @@ numero = int(input('Insira a quantidade de números que deseja escrever: '))
 lista_par = []
 lista_impar = []
 
+# Repetição para inserir os números:
 for i in range(0, numero):
     insira = int(input(f'Insira o número {numero+1}:'))
     if insira % 2 == 0:

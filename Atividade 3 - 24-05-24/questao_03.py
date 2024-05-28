@@ -6,8 +6,10 @@
 # Instutor: Bruno
 # Autor: Higor Stanley
 
+# Input do usuário:
 numero = int(input('Insira um número: '))
 
+# Para realizar a contagem regressiva colocamos '-1,-1'
 for i in range(numero, -1, -1):
     if i % 4 == 0:
         print(f"[{i}]", end=' ')

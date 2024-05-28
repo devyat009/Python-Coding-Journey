@@ -22,6 +22,7 @@ print(f'A média: {media:.2f}')\
 # Descobrimos quantos são maiores de idade:
 maior_de_dezoito = sum(1 for idade in pessoas if idade >= 18)
 print(f'Tem {maior_de_dezoito} maiores de 18 anos de idade.')
+
 # Descobrimos quantos são tem menos de 5 anos
 menor_de_cinco = sum(1 for idade in pessoas if idade >= 18)
 print(f'Tem {menor_de_cinco} com menos de 5 anos de idade.')

@@ -19,7 +19,6 @@ incremento = int(input('Digite o incremento: '))
 if incremento == 0:
     print('Infelizmente não poderemos proceguir por conta do incremento ser zero\nTente Novamente!')
 
-
 # De um número postivo até o número final:
 elif primeiro < ultimo and incremento > 0:
     for i in range(primeiro, ultimo +1, incremento):
