@@ -46,11 +46,11 @@ while True:
                             peso_lista.append(peso)
                             break
                         else:
-                            print("\nALERTA! Insira um valor om números. Tente novamente!")
+                            print("\nALERTA! Insira um valor com números para o PESO. Tente novamente!")
                     break
                 # Caso o input não seja numérico:
                 else:
-                    print("\nALERTA! Insira um valor om números. Tente novamente!")
+                    print("\nALERTA! Insira um valor com números para a ALTURA. Tente novamente!")
 
         # Para saber a média de todo o grupo:
         media = sum(altura_lista) / quantidade
