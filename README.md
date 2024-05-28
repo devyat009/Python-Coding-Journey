@@ -7,6 +7,7 @@
   Guide:
 
   Atividade 2 - if, elif, else scripts
+  
   Atividade 3 - for, in , range, list scripts
 
 |PT-BR|
@@ -16,4 +17,5 @@
   Guia:
 
   Atividade 2 - if, elif, else scripts
+  
   Atividade 3 - for, in , range, list scripts
