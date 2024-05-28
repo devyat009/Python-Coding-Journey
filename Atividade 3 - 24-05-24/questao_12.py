@@ -8,14 +8,34 @@
 # Importa random para sortear os números:
 import random;
 
+# Função para checar se o input do usuário é número:
+def e_numero(string):
+    try:
+        if string.isnumeric():
+            string = int(string)
+            return True   
+        else:
+            string = float(string)
+            return True # Colocamos False para termos apenas valores inteiros
+    except ValueError:
+        return False
+
 for i in range(4):
     numero_sorteado = random.randint(0,10)
-    user_escolha = input(f'Você tem {-i+4} tentativas: ')
-    # Caso a escolha esteja correta:
-    if numero_sorteado == user_escolha:
-        print('Você acertou! Parabéns!')
-        break
-    # Caso esteja errada:
-    else:
-        print('\nInfelizmente você errou, tente novamente.')
-        print(f'O número escolhido foi: {numero_sorteado}')
+    while True:
+        user_escolha = input(f'Você tem {-i+4} tentativas: ')
+        if e_numero(user_escolha):
+            user_escolha = int(user_escolha)
+            # Caso a escolha esteja correta:
+            if numero_sorteado == user_escolha:
+                print('Você acertou! Parabéns!')
+                break
+            # Caso esteja errada:
+            else:
+                print('\nInfelizmente você errou, tente novamente.')
+                print(f'O número escolhido foi: {numero_sorteado}\n')
+                break
+        # Caso o input não seja numérico:
+        else:
+            print("\nALERTA! Insira um valor om números. Tente novamente!")
+        
