@@ -24,8 +24,9 @@ def e_numero(string):
 altura_lista = []
 peso_lista = []
 
+# Programa em loop para validar o input:
 while True:
-     # Quantidade de pessoas em que o usuário ira escolher:
+    # Quantidade de pessoas em que o usuário ira escolher:
     quantidade = input('Insira a quantidade de pessoas: ')
     if e_numero(quantidade):
         quantidade = int(quantidade)
@@ -72,4 +73,4 @@ while True:
         break
     # Caso o input não seja numérico:
     else:
-        print("\nALERTA! Insira um valor om números. Tente novamente!")
+        print("\nALERTA! Insira um valor com números. Tente novamente!")
