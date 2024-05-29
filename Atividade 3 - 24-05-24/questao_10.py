@@ -50,7 +50,6 @@ while True:
                 if e_numero(idade):
                     idade = int(idade)
                     while True:
-                        ############################################################################## DEF SEXO GOSTOSO
                         # Obetemos o sexo, é ja deixamos em letra minuscula com o .lower
                         sexo = input(f'\nInsira o sexo desta pessoa {i+1}: ')
                         sexo.lower
@@ -80,14 +79,14 @@ while True:
         print("\nALERTA! Insira um valor om números. Tente novamente!")
 
 # Descobrir a quantidade de mulheres acimad e 20 anos:
-mais_de_vinte = sum(1 for idade in mulherIda_lista if idade >= 20)
+mais_de_vinte = sum(1 for idade in mulherIda_lista if idade > 20)
 # Quantidade de pessoas cadastradas:
 # Homens:
 homem_quantidade = len(homemIdad_lista)
 print(f'A) A quantidade de homens foi de: {homem_quantidade}')
 # Mulheres:
 mulher_quantidade = len(mulherIda_lista)
-print(f'B) A quantidade de homens foi de: {mulher_quantidade}')
+print(f'B) A quantidade de mulheres foi de: {mulher_quantidade}')
 # Calculamos a média de todo o grupo:
 media_total = sum(homemIdad_lista + mulherIda_lista) / quantidade
 print(f'C) A média de idade do grupo: {media_total:.2f}')

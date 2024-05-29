@@ -46,6 +46,19 @@ def bissexto(string):
             return False
     except ValueError:
         return False
+    
+    
+# Função de identificar o sexo:
+def sexu(string):
+    try:
+        string.lower
+        if string.isalpha():
+            if string == 'feminino' or string == 'mulher' or string == 'masculino' or string == 'homem':
+                return True
+        else:
+            return False
+    except ValueError:
+        return False
 
 # Como sao chamadas
 
@@ -71,3 +84,12 @@ if bissexto(ano):
     print("O ano é bissexto.")
 else:
     print("Não é um ano bissexto.")
+    
+# Sexo
+if sexu(sexo):
+    sexo.lower
+    if sexo == 'feminino':
+        print('Valido')
+    elif sexo == 'masculino':
+else:
+    print('Sexo invalido, digite feminino ou masculino')
