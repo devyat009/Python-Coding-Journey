@@ -18,6 +18,7 @@
 # ▶ Alterar estado do restaurante(Ativar ou Desativar)
 # Instrutor: Brunno
 # Data: 03/06/2024
+# Últilma Edição: 06/06/2024 
 # Autor: Higor Stanley aka Devyat009
 # Programa: Painel de gerenciador de estabelecimentos
 
@@ -66,8 +67,7 @@ def listar_restaurantes(restaurantes):
         print('⋄ Não tem nenhum estabelecimento cadastrado')
         return
     # Imprimimos a lista de estabelecimento cadastrados:
-    # Titulo da lista
-    print('  ESTABELECIMENTO'.ljust(20) + '▎' + '  NOME'.ljust(20) + '▎' + '  CATEGORIA'.ljust(20) + '▎' + '  STATUS'.ljust(10))
+    print('  ESTABELECIMENTO'.ljust(20) + '▎' + '  NOME'.ljust(20) + '▎' + '  CATEGORIA'.ljust(20) + '▎' + '  STATUS'.ljust(10)) # Titulo da lista
     # Itens numerados e ajustados de acordo com o titulo:
     for i, restaurante in enumerate(restaurantes, start=1):
         nome = restaurante.nome
@@ -76,11 +76,11 @@ def listar_restaurantes(restaurantes):
         status = "ATIVADO" if restaurante.status else "DESATIVADO" 
         print(f'Estabelecimento {i}'.ljust(20) + '▎' + f'{nome}'.ljust(20) + '▎' + f'{categoria}'.ljust(20) + '▎' + f'{status}'.ljust(10))
 
-# Alterar o Status
+# Alterar o Status:
 def alterar_status(restaurantes):
     # Listamos os estabelecimentos para que o usuario possa escolher oque deseja alterar o estado:
     listar_restaurantes(restaurantes)
-    # Caso não tenha nenhum 
+    # Caso não tenha nenhum:
     if not restaurantes:
         return
     # Caso tenha, tentar:
@@ -103,6 +103,7 @@ def alterar_status(restaurantes):
     except ValueError: # Exceção de erro para a tentativa:
         print('⚠︎ Insira um valor valido!')
 
+# Remover estabelecimento:
 def remover_estabelecimento(lista):
     # Listamos os estabelecimentos para que o usuario possa escolher oque deseja alterar o estado:
     listar_restaurantes(lista)
@@ -193,5 +194,5 @@ def main():
             print('⚠︎ Alerta! Insira um número valido de 1 a 4 e tente novamente!')
 
 # Chamamos main:
-if __name__ == '__main__':
+if __name__ == '__main__': # Nem precisa dessa linha, pode deixar só a main()
     main()

@@ -10,9 +10,11 @@
 #
 # Instrutor: Brunno
 # Data: 04/06/2024
+# Ultima Edição: 06/06/2024
 # Autor: Higor Stanley aka Devyat009
-# Programa: Dicionario
+# Programa: Dicionários
 
+# IDEIA DESCARTADA
 # def adicionar_pessoas(pessoas):
     # nome = input('▶ Digite o nome: ')
     # idade = input('▶ Digite qual é a idade da pessoa: ')
@@ -44,12 +46,13 @@ def e_letra(string):
         return False
 
 
-# QUESTAO 2
+#### QUESTÃO 2
 dados_pessoais = [
         {'nome': 'Higor', 'idade': '22', 'profissao': ' ', 'cidade': 'sobradisley'},
         {'nome': 'Luiz', 'idade': '21', 'profissao': ' ', 'cidade': 'sobradisley'}
     ]
 
+# Pessoas fixas
 def pessoas():
     # Verifica se existem pessoas na lista:
     if not dados_pessoais:
@@ -60,26 +63,28 @@ def pessoas():
     print('◇ A lista contem as seguintes pessoas: ')
     for i, pessoa in enumerate(dados_pessoais, start=1):
         print(f'◇ Pessoa {i}: Nome: {pessoa["nome"]}, Idade: {pessoa["idade"]}, Profissão: {pessoa["profissao"]}')
-    
+
+# Alterar a idade da lista dicionário:
 def alterar_idade_pessoas(dados_pessoais):
     print('◇ Escolha a pessoa que deseja alterar: ')
     pessoas()
-
+    # Escolhe o alvo:
     alvo = int(input('▶ Escolha o numero da pessoa que deseja alterar: '))
     nova_idade = int(input(f'▶ Insira a nova idade de {dados_pessoais[alvo - 1]["nome"]}: '))
-
     dados_pessoais[alvo -1]['idade'] = nova_idade
     print(f'◇ A nova idade de {dados_pessoais[alvo - 1]["nome"]} é {dados_pessoais[alvo -1]["idade"]}') 
-    
+
+# Adiciona uma profissão na lista dicionário:
 def adicionar_profissao_pessoas(dados_pessoais):
     print('◇ Escolha a pessoa que deseja alterar: ')
     pessoas()
-
+    # Alvo
     alvo = int(input('▶ Escolha o numero da pessoa que deseja alterar: '))
     nova_profissao = input(f'▶ Insira a nova profissão de {dados_pessoais[alvo - 1]["nome"]}: ')
     dados_pessoais[alvo -1]['profissao'] = nova_profissao
     print(f'◇ A nova profissão de {dados_pessoais[alvo - 1]["nome"]} é {dados_pessoais[alvo -1]["profissao"]}') 
 
+# Deletar as pessoas na lista dicionário:
 def deletar_pessoas():
     print('◇ Escolha a pessoa que deseja alterar: ')
     pessoas()
@@ -102,6 +107,7 @@ def deletar_pessoas():
     except ValueError:
         print('⚠︎ Insira um valor valido!')
 
+# Sub Menu para opção PESSOAS
 def sub_menu_pessoas():
     while True:
         print('┏━╾──────────────────────────────────╼━┓')
@@ -128,11 +134,11 @@ def sub_menu_pessoas():
                     # Sair do loop e voltar ao menu principal
                     break
                 case _:
-                    print('⚠︎ Opção invalida, tente novamente!')
+                    print('⚠︎ Alerta! Insira um número valido de 1 a 5 e tente novamente!')
         else:
             print('⚠︎ Insira um número correspondente a uma opção válida!')
 
-# QUESTAO 3
+#### QUESTAO 3
 
 # Escolher número:
 def alterar_numero():
@@ -173,11 +179,11 @@ def numeros_quadrado():
                     # Sair do loop e voltar ao menu principal
                     break
                 case _:
-                    print('⚠︎ Opção invalida, tente novamente!')
+                    print('⚠︎ Alerta! Insira um número valido de 1 a 3 e tente novamente!')
         else:
             print('⚠︎ Insira um número correspondente a uma opção válida!')
 
-# QUESTÃO 4
+#### QUESTÃO 4
 # Adicona um dicionario  a partir de uma frase sem regras para a questão 4 e 5:
 lista_dicionario = []
 
@@ -191,29 +197,8 @@ def adicionar_dicionario():
         continuar = input("◇ Deseja adicionar mais frases? (s/n): ").lower()
         if continuar != 's':
             return dicionario
-
-# Verifica se existe uma palavra no dicionario adicionado:
-# def verificar_palavra(dicionario):
-#     # Identifica se o dicionário está vazio:
-#     if not dicionario:
-#         print('⚠︎ O dicionário está vazio.')
-#         return
-#     # Identifica o input do usuário:
-#     while True:
-#         chave = input('▶ Escolha um nome para a palavra chave: ').strip().lower() # Remove o espacos em branco e deixa em minusculo
-#         if e_letra(chave):
-#             chave = str(chave)
-#             # Verifica quantas vezes foi encotrado no dicionário:
-#             if chave in dicionario:
-#                 print(f'⋄ A palavra chave "{chave}" foi encontrada {dicionario[chave]} vezes.')
-#                 break
-#             else:
-#                 print('⚠︎ Palavra chave não encontrada!')
-#                 break
-#         else:
-#             print('⚠︎ Insira uma letra ou uma palavra!')
             
-            
+# Verificar se a palavra exite e quantas vezes apareceu:        
 def verificar_palavra(dicionario):
     # Identifica se o dicionário está vazio:
     if not dicionario:
@@ -238,21 +223,20 @@ def verificar_palavra(dicionario):
 
 
 
-# listar o dicionario:          
+# Listar o dicionario:          
 def listar_dicionario(dicionario):
     print('◇ A lista do dicionario contem: ')
     for i, (frase, frequencia) in enumerate(dicionario.items(), start=1):
         print(f'◇ Frase {i}: {frase} - Frequência da frase: {frequencia}')
-# QUESTÃO 5
+#### QUESTÃO 5
+# Contar a frequência:
 def contar_frequencia(dicionario):
     frequencia_palavras = {}
-
-    # Iterar sobre cada frase no dicionário
+    # Iterar sobre cada frase no dicionário:
     for frase, freq in dicionario.items():
-        # Dividir a frase em palavras
+        # Dividir a frase em palavras:
         palavras = frase.split()
-        
-        # Iterar sobre cada palavra na frase
+        # Iterar sobre cada palavra na frase:
         for palavra in palavras:
             palavra = palavra.lower()  # Convertendo a palavra para minúsculas
             if palavra in frequencia_palavras:
@@ -261,14 +245,11 @@ def contar_frequencia(dicionario):
             else:
                 # Se a palavra não estiver no dicionário de frequência, adicioná-la com a frequência correspondente
                 frequencia_palavras[palavra] = freq
-    
     return frequencia_palavras
     
-    # for palavra, freq in dicionario.items():
-    #     print(f"{palavra}: {freq}")
         
     
-# Menu Questão 4 e 5 - Dicionário:
+# Sub Menu Questão 4 e 5 - Dicionário:
 def menu_dicionario():
     while True:
         print('┏━╾──────────────────────────────────╼━┓')
@@ -279,8 +260,6 @@ def menu_dicionario():
         print('┃〔 5  ⇦  Voltar ao menu principal  〕 ┃')
         print('┗━╾──────────────────────────────────╼━┛')
 
-        # Dicionario vazio
-        
         escolha = input('▶ Sua escolha é: ')
         if e_numero(escolha):
             escolha = int(escolha)
@@ -298,7 +277,7 @@ def menu_dicionario():
                     # Sair do loop e voltar ao menu principal
                     break
                 case _:
-                    print('⚠︎ Opção inválida, tente novamente!')
+                    print('⚠︎ Alerta! Insira um número valido de 1 a 5 e tente novamente!')
         else:
             print('⚠︎ Insira um número correspondente a uma opção válida!')
 
@@ -314,7 +293,6 @@ def menu():
 # Launcher do Programa
 def main():
     while True:
-        #nome_programa()
         menu()
         escolha_opcao = input('▶ Sua escolha é: ')
         if e_numero(escolha_opcao):
