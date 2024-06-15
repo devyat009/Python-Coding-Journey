@@ -8,7 +8,7 @@ class Cliente():
     # Identifica se há um cadastro na lista de cliente
     def encontrar_cliente(self):
         for cliente in self.lista_cliente:
-            if cliente['nome'] == self.nome:
+            if cliente['nome'] == self.nome and cliente['cpf'] == self.cpf:
                 print('Cliente encontrado.')
                 return cliente
         print('Cliente não encontrado.')
@@ -23,11 +23,10 @@ class Cliente():
         
     # Realizar Cadastro
     def cadastro(self):
-        if not self.lista_cliente:
-            print('Não há pessoas cadastradas')
+        #if not self.lista_cliente:
+        #   print('Parece que não há nenhum cadastrado')
         print('Vamos cadastrar...\n')
-        user_nome = input('Insira o seu nome: ')
-        
+        user_nome = input('Insira o seu nome: ').lower()
         self.nome = user_nome
         while True:
             user_cpf = int(input('Insira o CPF: '))

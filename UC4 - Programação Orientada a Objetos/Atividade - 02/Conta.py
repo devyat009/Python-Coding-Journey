@@ -5,8 +5,6 @@ class Conta(Cliente):
         self.nome = None
         self.cpf 
     
-    def criando_conta(self, nome, cpf):
-        pass
         
     def encontrar_cliente(self):
         for cliente in self.lista_cliente:
@@ -19,7 +17,7 @@ class Conta(Cliente):
         if cliente:
             print(f"Olá {self.nome}, seu saldo é de: R${cliente['saldo']:.2f}")
         else:
-            print("Cliente não encontrado.")
+            print("debug - SALDO - Cliente não encontrado.")
     
     def deposito(self, valor):
         cliente = self.encontrar_cliente()
@@ -32,10 +30,11 @@ class Conta(Cliente):
                 print('Valor de dpósito inválido.')
         else:
             print('O cliente não foi encontrado.')
+            
     def saque(self, valor):
         cliente = self.encontrar_cliente()
         if cliente:
-            if 0 < 1.99 < valor <= cliente['saldo']:
+            if 0 < valor <= cliente['saldo']:
                 cliente['saldo'] -= valor
                 print(f'O saque de R${valor:2.f} realizado com sucesso.')
             else:
