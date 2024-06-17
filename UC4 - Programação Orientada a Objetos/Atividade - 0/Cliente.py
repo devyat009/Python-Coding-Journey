@@ -23,19 +23,21 @@ class Cliente():
         
     # Realizar Cadastro
     def cadastro(self):
-        #if not self.lista_cliente:
-        #   print('Parece que não há nenhum cadastrado')
         print('Vamos cadastrar...\n')
         user_nome = input('Insira o seu nome: ').lower()
         self.nome = user_nome
         while True:
-            user_cpf = int(input('Insira o CPF: '))
-            if self.verifica_cpf(user_cpf):
-                self.lista_cliente.append({'nome': user_nome, 'cpf': user_cpf, 'saldo':0.0, 'depositos': []}) 
-                print('Cliente cadastrado com sucesso.')
-                return
-            else:
-                print('Coloque 8 digitos para o cpf!')
+            try:
+                user_cpf = int(input('Insira o CPF: '))
+                if self.verifica_cpf(user_cpf):
+                    self.cpf = user_cpf
+                    self.lista_cliente.append({'nome': user_nome, 'cpf': user_cpf, 'saldo': 0.0, 'depositos': []})
+                    print('Cliente cadastrado com sucesso.')
+                    return
+                else:
+                    print('CPF inválido. Deve conter exatamente 8 dígitos.')
+            except ValueError:
+                print('CPF inválido. Deve ser um número inteiro.')
                 
             
     
