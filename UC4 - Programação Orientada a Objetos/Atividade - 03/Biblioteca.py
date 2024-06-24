@@ -11,5 +11,11 @@
 #     emprestar_livro(cliente, livro): permite que um cliente empreste um livro da biblioteca. 
 #     devolver_livro(cliente, livro): permite que um cliente devolva um livro à biblioteca.
 
-class Biblioteca():
-    
+class Biblioteca(Livro):
+    def __init__(self):
+        super().__init__(self)
+        
+    def adiconar_livro(livro):
+        autor = input('Adicione o nome do autor do livro: ')
+        titulo = input('Insira o título do livro: ')
+        ano_publicacao = input('Insira o ano de publicação: ')

@@ -1,5 +1,6 @@
 class Heroi():
     lista_nome = []
+    # Classes:
     lista_classe = [{
         "nome": "Mago"
     },
@@ -48,14 +49,13 @@ class Heroi():
 
     def nome(self):
         self.lista_nome.append(self.nome)
-        
+    
     def mostrar_info(self): # mostrar as informacoes do personagem
         print(f'Nome: {self.nome}')
         print(f'Classe: {self.classe}')
         if self.poder:
             print(f"Poder: {self.poder['nome']}")
         print(f'Vida: {self.vida}')
-    
     
     
     def escolher_classe(self): # Forma de selecionar a classe 
@@ -85,8 +85,7 @@ class Heroi():
         escolha = int(input('Selecione o número correspondente ao poder desejado: '))
         self.poder = poderes[escolha -1]
     
-    
-        
+    # Discartado
     def ponto_fraco(self):
         pass
     
