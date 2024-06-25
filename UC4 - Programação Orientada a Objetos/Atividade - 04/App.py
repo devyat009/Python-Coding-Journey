@@ -7,7 +7,7 @@
 # • Restaurante:
 #     o nome
 #     o Categoria (Pizzaria, Japonesa, Fastfood, Churrascaria...)
-from modelos.Restaurante import Restaurante
+from modelo.Restaurante import Restaurante
 
 class App():
     """
@@ -32,8 +32,13 @@ class App():
     
     @classmethod
     def cadapio_churras(cls):
+        """
+        Informações:
+        ------------
+        Metódo para imprimir o cardapio, facilmente mutavel no ctrl-c e ctrl-v
+        """
         for i, item in enumerate(cls.lista_cardapio_churrascaria_pg1, start=1):
-            print(f'{i} - {item["item"].ljust(13)} {'─'*15} {item["valor"]:.2f}')
+            print(f'{i} - {item["item"].ljust(13)} {("─"*15)} {item["valor"]:.2f}')
 
     def cardapio_Bebidas(self):
         pass
@@ -47,11 +52,12 @@ ______          _                              _
 | |\ \  __/\__ \ || (_| | |_| | | | (_| | | | | ||  __/
 \_| \_\___||___/\__\__,_|\__,_|_|  \__,_|_| |_|\__\___|
 ''')
-#main = App()
-#main.cadapio_churras()
-        
+main = App()
+main.cadapio_churras()
+print('─'*50)
 main = Restaurante('Jose', 'Test')
 main.listar_restaurantes()
+print('─'*50)
 main.restaurante_add('Churras do Sul', 'Churrascaria')
 main.listar_restaurantes()
 print('─'*50)
