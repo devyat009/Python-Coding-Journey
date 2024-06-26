@@ -1,4 +1,12 @@
 class ItemCardapio:
+    """
+    Informações:
+    ------------
+    Classe responsável por armazenar os Items do cardapio.
+    Versão: 1.0
+    ---------
+    Autor: Higor Stanley aka Devyat009
+    """
     lista_cardapio_churrascaria_pg1= [
         {'item': 'Paleta', 'valor': 19.90},
         {'item': 'Picanha', 'valor': 19.90},
@@ -24,3 +32,24 @@ class ItemCardapio:
     """
     Cardapio UNIVERSAL de bebidas
     """
+    
+    lista_cardapio_custom = []
+    def __init__(self):
+        pass
+    
+    @classmethod
+    def add_cardapio(cls, nome, preco):
+        """
+        Informações:
+        -----------
+        Adiciona Itens customizados ao cardapio.
+        """
+        nome = nome.title()
+        try:
+            preco == float(preco)
+            cls.lista_cardapio_custom.append({'item': nome, 'valor': preco})
+        except ValueError:
+            print('Preço invalído')
+            
+ItemCardapio.add_cardapio('Pera', 2.3)
+print(ItemCardapio.lista_cardapio_custom)

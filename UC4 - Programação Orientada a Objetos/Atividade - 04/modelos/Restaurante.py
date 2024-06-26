@@ -1,9 +1,16 @@
 import os
 
 class Restaurante:
-    lista_restaurantes = [
+    """
+    Informações:
+    ------------
+    Classe capaz de adicionar novos restaurantes, listar eles e alterar o estado do estabelicimento.
     
-    ]
+    Versão: 1.1
+    -----------
+    Autor: Higor Stanley aka Devyat009
+    """
+    lista_restaurantes = []
 
     def __init__(self, nome, categoria):
         self._nome = nome
@@ -12,14 +19,12 @@ class Restaurante:
         # Adiciona o restaurante na lista de restaurantes.
         Restaurante.lista_restaurantes.append({'restaurante_nome': nome, 'restaurante_categoria': categoria, 'ativo': self.ativo}) 
     
-
     def __str__(self):
         """
         Feito para não retorna valor de mémoria.
         """
         return f'{(self._nome).ljust(15)}{"─"*15}   {(self._categoria).ljust(12)} {"─"*4} {self.ativo}'
 
-    
     @property
     def ativo(self):
         """
@@ -30,19 +35,17 @@ class Restaurante:
         else:
             return 'Desativado'
     
-    # def alterar_status(self):
-    #     if self._ativo == True:
-    #         return 'DESATIVADO'
-    #     elif self._ativo == False:
-    #         return 'ATIVADO'
-    
     def alterar_status(self):
+        """
+        Informações:
+        ------------
+        Utilizado para alterar o status de Ativado ou para Desativado.
+        """
         self._ativo = not self._ativo
+        for restaurante in Restaurante.lista_restaurantes:
+            if restaurante['restaurante_nome'] == self._nome:
+                restaurante['ativo'] = self.ativo
 
-    # def alterar_status(self, true):
-    #     self._ativo = true
-
-    
     @classmethod
     def listar_restaurantes(cls):
         """
@@ -55,11 +58,9 @@ class Restaurante:
             print('⚠ A lista de restaurantes está vazia ⚠')
             return
         # Imprimir a lista de de restaurantes 
-        print(f'{"╾─╼"} {('RESTAURANTE').ljust(15)} ╾{"─"*13}╼ {('CATEGORIA').ljust(15)} ╾{"─"*2}╼ {('STATUS').ljust(10)}')
+        print(f'{"╾─╼"} {("RESTAURANTE").ljust(15)} ╾{"─"*13}╼ {("CATEGORIA").ljust(15)} ╾{"─"*2}╼ {("STATUS").ljust(10)}')
         for i, restaurante in enumerate(cls.lista_restaurantes, start=1):
            print(f'⤍ {i} {(restaurante["restaurante_nome"]).ljust(15)} {"─"*15} {(restaurante["restaurante_categoria"]).ljust(15)} {"─"*4} {restaurante["ativo"]}')
-    
-
     
     @classmethod
     def restaurante_add(cls, nome, categoria):

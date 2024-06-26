@@ -14,6 +14,10 @@ class App():
     Informações:
     ------------
     Serve como o programa em si para chamar as classes
+    
+    Versão: 1.1
+    -----------
+    Autor: Higor Stanley aka Devyat009
     """
     
     @classmethod
@@ -56,4 +60,5 @@ Restaurante.listar_restaurantes()
 
 print(Restaurante.lista_restaurantes)
 print(ChurradoSul)
+Restaurante.listar_restaurantes()
 # print('─'*50)
