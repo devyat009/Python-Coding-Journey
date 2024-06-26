@@ -28,7 +28,17 @@ class App():
     """
     Cardapio de Churrasco Pagina 1
     """
-
+    lista_cardapio_universal_bebidas= [
+        {'item': 'Coca Cola 250ml', 'valor': 3.49},
+        {'item': 'Coca Cola 600ml', 'valor': 6.49},
+        {'item': 'Pepsi 250ml', 'valor': 3.69},
+        {'item': 'Cerveja BRAHMA 369ml', 'valor': 6.00},
+        {'item': 'Cerveja BRAHMA 1L', 'valor': 12.99 },
+        {'item': 'Água 250ml', 'valor': 1.99}
+    ]
+    """
+    Cardapio UNIVERSAL de bebidas
+    """
     
     @classmethod
     def cadapio_churras(cls):
@@ -40,8 +50,15 @@ class App():
         for i, item in enumerate(cls.lista_cardapio_churrascaria_pg1, start=1):
             print(f'{i} - {item["item"].ljust(13)} {("─"*15)} {item["valor"]:.2f}')
 
-    def cardapio_Bebidas(self):
-        pass
+    @classmethod
+    def cardapio_bebidas(cls):
+        """
+        Informações:
+        ------------
+        Metódo para imprimir o cardapio de bebidas, facilmente mutavel no ctrl-c e ctrl-v
+        """
+        for i, item in enumerate(cls.lista_cardapio_universal_bebidas, start= 1):
+            print(f'{i} - {item["item"].ljust(13)} {("─"*15)} {item["valor"]:.2f}')
 
     def login_banner(self):
         print('''
