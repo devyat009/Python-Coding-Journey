@@ -1,4 +1,5 @@
 import os
+from modelos.cardapio.Bebida import Bebida
 
 class Restaurante:
     """
@@ -16,6 +17,7 @@ class Restaurante:
         self._nome = nome
         self._categoria = categoria
         self._ativo= True
+        self._cardapio = []
         # Adiciona o restaurante na lista de restaurantes.
         Restaurante.lista_restaurantes.append({'restaurante_nome': nome, 'restaurante_categoria': categoria, 'ativo': self.ativo}) 
     
@@ -61,7 +63,32 @@ class Restaurante:
         print(f'{"╾─╼"} {("RESTAURANTE").ljust(15)} ╾{"─"*13}╼ {("CATEGORIA").ljust(15)} ╾{"─"*2}╼ {("STATUS").ljust(10)}')
         for i, restaurante in enumerate(cls.lista_restaurantes, start=1):
            print(f'⤍ {i} {(restaurante["restaurante_nome"]).ljust(15)} {"─"*15} {(restaurante["restaurante_categoria"]).ljust(15)} {"─"*4} {restaurante["ativo"]}')
-    
+
+    def adicionar_no_cardapio(self, item):
+        """
+        Informações:
+        ---------------
+        Responsavel por adiciopnar itens no cardapio 
+        
+        Uso:
+        ------------
+        bebida = Bebida('Bebida Exemplo', '250ml', 5.99)
+
+        restaurante_exemplo.adicionar_no_cardapio(bebida)
+
+        """
+        self._cardapio.append(item)
+
+    def mostrar_cardapio(self):
+        """
+        Informações:
+        ------------
+
+        """
+        print(f'{"╾─╼"} {("ITEM").ljust(11)} ╾{"─"*13}╼ {("TAMANHO").ljust(7)} ╾{"─"*2}╼ {("PREÇO").ljust(10)}')
+        for i in self._cardapio:
+            print(f'{i}')
+
     @classmethod
     def restaurante_add(cls, nome, categoria):
         """
