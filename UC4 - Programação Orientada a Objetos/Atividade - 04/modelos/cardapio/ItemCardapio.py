@@ -20,22 +20,14 @@ class ItemCardapio:
     """
     Cardapio de Churrasco Pagina 1
     """
-
-    lista_cardapio_universal_bebidas= [
-        {'item': 'Coca Cola', 'valor': 3.49},
-        {'item': 'Coca Cola', 'valor': 6.49},
-        {'item': 'Pepsi', 'valor': 3.69},
-        {'item': 'Cerveja BRAHMA', 'valor': 6.00},
-        {'item': 'Cerveja BRAHMA 1L', 'valor': 12.99 },
-        {'item': 'Água 250ml','valor': 1.99}
-    ]
-    """
-    Cardapio UNIVERSAL de bebidas
-    """
-    
     lista_cardapio_custom = []
-    def __init__(self):
-        pass
+    
+    def __init__(self, nome, preco):
+        self._nome = nome
+        self._preco = preco
+
+    def __str__(self):
+        return f'{(self._nome).ljust(15)}{"─"*15}{"─"*4} R$ {self._preco:.2f}'
     
     @classmethod
     def add_cardapio(cls, nome, preco):
@@ -51,5 +43,3 @@ class ItemCardapio:
         except ValueError:
             print('Preço invalído')
             
-ItemCardapio.add_cardapio('Pera', 2.3)
-print(ItemCardapio.lista_cardapio_custom)
