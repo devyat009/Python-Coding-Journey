@@ -20,8 +20,9 @@ class ItemCardapio:
     """
     Cardapio de Churrasco Pagina 1
     """
-    lista_cardapio_custom = []
+
     
+    lista_cardapio_custom = []
     def __init__(self, nome, preco):
         self._nome = nome
         self._preco = preco
@@ -29,6 +30,8 @@ class ItemCardapio:
     def __str__(self):
         return f'{(self._nome).ljust(15)}{"─"*15}{"─"*4} R$ {self._preco:.2f}'
     
+
+
     @classmethod
     def add_cardapio(cls, nome, preco):
         """

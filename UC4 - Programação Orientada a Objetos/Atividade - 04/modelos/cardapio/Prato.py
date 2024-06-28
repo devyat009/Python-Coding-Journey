@@ -1,4 +1,5 @@
-class Prato:
+from modelos.cardapio.ItemCardapio import ItemCardapio
+class Prato(ItemCardapio):
     """
     Informações:
     ------------
@@ -17,9 +18,10 @@ class Prato:
     Autor: Higor Stanley aka Devyat009
     """
     def __init__(self, nome, preco, descricao):
+        super().__init__(nome, preco)
         self._nome = nome
         self._preco = preco
         self._descricao = descricao
 
     def __str__(self):
-        return f'{(self._nome).ljust(15)}{"─"*15}   {(self._tamanho).ljust(12)} {"─"*4} {self._preco}'
+        return f'{"╾─╼"} {str(self._nome).ljust(15)} ╾{"─"*17}╼ {str(self._preco).ljust(10)} ╾{"─"*2}╼ {str(self._descricao).ljust(60)}'

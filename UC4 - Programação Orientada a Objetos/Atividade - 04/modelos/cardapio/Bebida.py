@@ -37,5 +37,5 @@ class Bebida(ItemCardapio):
         self._tamanho = tamanho
 
     def __str__(self):
-        return f'{(self._nome).ljust(15)} {"─"*15} {(self._tamanho).ljust(7)} {"─"*4} R$ {self._preco:.2f}'
+        return f'{"╾─╼"} {(self._nome).ljust(15)} ╾{"─"*17}╼ {(self._tamanho).ljust(17)} {"─"*4} R$ {self._preco:.2f}'
     
