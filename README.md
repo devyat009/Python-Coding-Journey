@@ -10,7 +10,7 @@ Aviso: Este repositório contem código totalmente em português.
 - [Read in English](#english)
 - [Leia em Português (Brasil)](#português)
 
-## <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg" width="35" height="25" align="top">Português
+## <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg" width="35" height="25" align="left">Português
 
 Este repositório contém uma coleção de programas simples desenvolvidos durante meu curso de Desenvolvimento de Sistemas.
 
@@ -95,7 +95,7 @@ Este repositório contém uma coleção de programas simples desenvolvidos duran
 
 Aviso: Se você deseja fazer qualquer alteração no código de qualquer arquivo, por favor, crie uma solicitação de pull request.
 
-## <img src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg" width="35" height="25" align="top">English
+## <img src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg" width="35" height="25" align="left">English
 
 This repository contains a collection of simple programs developed during my Systems Development course.
 
@@ -116,7 +116,7 @@ This repository contains a collection of simple programs developed during my Sys
 ## Programming Logic
 <a name="programing-logic"></a>
 
-- Activity 1: Python Basics
+# Activity 1: Python Basics
   - [Question 01](UC3%20-%20Logic%20Programming/Activity%2001/question_01.py): First `Hello World`
   - [Question 02](UC3%20-%20Logic%20Programming/Activity%2001/question_02.py): First use of `input`
   - [Question 03](UC3%20-%20Logic%20Programming/Activity%2001/question_03.py): Using multiple `input` to print name and salary
