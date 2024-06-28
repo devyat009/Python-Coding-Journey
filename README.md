@@ -19,14 +19,14 @@ Este repositório contém uma coleção de programas simples desenvolvidos duran
 ## Sumário
 
 ### [Lógica de Programação](#lógica-de-programação-1)
-- [Atividade 1](#atividade-1-o-básico-de-python)
-- [Atividade 2](#atividade-2-scripts-utilizando-declarações-if-elif-else-for-while-e-def-com-validações)
-- [Atividade 3](#atividade-3-conjunto-de-programas-abordando-contagem-contagem-regressiva-contagem-com-incremento-variável-leitura-de-números-pares-e-ímpares-sorteio-de-números-aleatórios-entre-outros-cada-questão-é-um-arquivo-separado)
+- [Atividade 1](#atividade-1-o-básico-de-python): O basico de Python
+- [Atividade 2](#atividade-2-scripts-utilizando-declarações-if-elif-else-for-while-e-def-com-validações): Scripts utilizando declarações `if`, `elif`, `else`, `for`, `while` e `def`. Além de aplicar validações
+- [Atividade 3](#atividade-3-conjunto-de-programas-abordando-contagem-contagem-regressiva-contagem-com-incremento-variável-leitura-de-números-pares-e-ímpares-sorteio-de-números-aleatórios-entre-outros-cada-questão-é-um-arquivo-separado): Conjunto de programas abordando diversos conceitos
 
 ### [Programação Orientada a Objetos](#programação-orientada-a-objetos-1)
-- [Atividade 1](#atividade-1-scripts-utilizando-class)
-- [Atividade 2](#atividade-2)
-- [Atividade 3](#atividade-3)
+- [Atividade 1](#atividade-1-scripts-utilizando-class): Scripts usando `class`.
+- [Atividade 2](#atividade-2): 
+- [Atividade 3](#atividade-3): 
 
 ## Lógica de Programação
 <a name="lógica-de-programação"></a>
@@ -104,14 +104,14 @@ This repository contains a collection of simple programs developed during my Sys
 ## Summary
 
 ### [Programming Logic](#programing-logic)
-- [Activity 1](#activity-1-python-basics)
-- [Activity 2](#activity-2-scripts-using-if-elif-and-else-statements)
-- [Activity 3](#activity-3-set-of-programs-covering-various-concepts-such-as-counting-countdown-counting-with-variable-increment-reading-even-and-odd-numbers-random-number-drawing-among-others-each-question-is-a-separate-file)
+- [Activity 1](#activity-1-python-basics): Python Basics
+- [Activity 2](#activity-2-scripts-using-if-elif-and-else-statements): Scripts using `if`, `elif`, and `else` statements
+- [Activity 3](#activity-3-set-of-programs-covering-various-concepts-such-as-counting-countdown-counting-with-variable-increment-reading-even-and-odd-numbers-random-number-drawing-among-others-each-question-is-a-separate-file): Set of programs covering various concepts
 
 ### [Object Oriented Programing](#object-oriented-programing)
-- [Activity 1](#activity-1-scripts-using-class)
-- [Activity 2](#activity-2)
-- [Activity 3](#activity-3)
+- [Activity 1](#activity-1-scripts-using-class): Scripts using `class`.
+- [Activity 2](#activity-2): 
+- [Activity 3](#activity-3): 
 
 ## Programming Logic
 <a name="programing-logic"></a>
