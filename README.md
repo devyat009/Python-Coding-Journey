@@ -76,7 +76,10 @@ Cálculo a média de duas notas de um aluno e exibe sua situação acadêmica co
 #### Programação Orientada a Objetos
 
 - **Atividade 1**: Scripts usando `class`.
-
+    - [Questão 01](UC4%20-%20Programação%20Orientada%20a%20Objetos/Atividade%20-%2001/Atividade%20-%201%20Heroi.py): Jogo em que 2 jogadores selecionam persoagens e seus ataques.
+- **Atividade 2**:
+    - [Questão 01](UC4%20-%20Programação%20Orientada%20a%20Objetos/Atividade%20-%2002/Questao_01.py): Implementa classes para calcular área e perímetro de circunferência, triângulo e quadrado.
+- **Atividade 3**:
 
 ## <img src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg" width="35" height="25" align="center">English
 
