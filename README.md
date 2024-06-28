@@ -105,7 +105,7 @@ This repository contains a collection of simple programs developed during my Sys
 
 ### [Programming Logic](#programing-logic)
 - [Activity 1](#activity-1-python-basics)
-- [Activity 2](#activity-2-scripts-using-if-elif-and-else-statments)
+- [Activity 2](#activity-2-scripts-using-if-elif-and-else-statements)
 - [Activity 3](#activity-3-set-of-programs-covering-various-concepts-such-as-counting-countdown-counting-with-variable-increment-reading-even-and-odd-numbers-random-number-drawing-among-others-each-question-is-a-separate-file)
 
 ### [Object Oriented Programing](#object-oriented-programing)
@@ -173,12 +173,12 @@ This repository contains a collection of simple programs developed during my Sys
 
 ## Object-Oriented Programming
 <a name="object-oriented-programing"></a>
-- Activity 1: Scripts using `class`.
+### Activity 1: Scripts using `class`.
   - [Question 01](UC4%20-%20Object%20Oriented%20Programming/Activity%20-%2001/Activity%20-%201%20Hero.py): Game where 2 players select characters and their attacks.
 
-- Activity 2:
+### Activity 2:
   - [Question 01](UC4%20-%20Object%20Oriented%20Programming/Activity%20-%2002/Question_01.py): Implements classes to calculate area and perimeter of circle, triangle, and square.
 
-- Activity 3:
+### Activity 3:
 
 Disclaimer: If you want to make any changes to the code in any file, please create a pull request.
