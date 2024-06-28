@@ -116,7 +116,7 @@ This repository contains a collection of simple programs developed during my Sys
 ## Programming Logic
 <a name="programing-logic"></a>
 
-# Activity 1: Python Basics
+### Activity 1: Python Basics
   - [Question 01](UC3%20-%20Logic%20Programming/Activity%2001/question_01.py): First `Hello World`
   - [Question 02](UC3%20-%20Logic%20Programming/Activity%2001/question_02.py): First use of `input`
   - [Question 03](UC3%20-%20Logic%20Programming/Activity%2001/question_03.py): Using multiple `input` to print name and salary
