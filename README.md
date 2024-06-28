@@ -30,7 +30,7 @@ Este repositório contém uma coleção de programas simples desenvolvidos duran
 
 ## Lógica de Programação
 <a name="lógica-de-programação"></a>
-- **Atividade 1**: O basico de Python
+### **Atividade 1**: O basico de Python
   - [Questão 01](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_01.py): Primeiro `Hello World`
   - [Questão 02](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_02.py): Primeiro uso do `input`
   - [Questão 03](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_03.py): Uso de multiplos `input` para imprimir o nome e salário.
@@ -47,7 +47,7 @@ Este repositório contém uma coleção de programas simples desenvolvidos duran
   - [Questão 14](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_14.py): Cálculo do preço total a pagar pelo aluguel de um carro baseado na quantidade de Km percorridos e dias alugados.
   - [Questão 15](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_15.py): Cálculo do salário de um funcionário com base no número de dias trabalhados no mês.
   - [Questão 16](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_16.py): Desafio de cálculo da redução do tempo de vida de um fumante baseado na quantidade de cigarros fumados diariamente e anos de hábito.
-- **Atividade 2**: Scripts utilizando declarações `if`, `elif`, `else`, `for`, `while` e `def`. Além de aplicar validações.
+### **Atividade 2**: Scripts utilizando declarações `if`, `elif`, `else`, `for`, `while` e `def`. Além de aplicar validações.
   - [Questão 01](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2002/questao_01.py): Verificação e aplicação de multa caso a velocidade de um carro ultrapasse 80Km/h.
   - [Questão 02](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_02.py): Verificação da idade de uma pessoa para determinar se ela pode votar.
   - [Questão 03](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_03.py): Cálculo da média de um aluno e verificação se teve bom aproveitamento, baseado em duas notas.
@@ -70,7 +70,7 @@ Este repositório contém uma coleção de programas simples desenvolvidos duran
   - [Questão 20](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_20.py): Calcula pontos e ganhos financeiros baseados em horas mensais de atividade física, com diferentes taxas de pontos por hora.
   - [Questão 21](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_21.py): Calcula o novo salário de funcionários baseado no salário atual, gênero e tempo de serviço na empresa, com diferentes percentuais de aumento.
 
-- **Atividade 3**: Conjunto de programas abordando diversos conceitos como contagem, contagem regressiva, contagem com incremento variável, leitura de números pares e ímpares, sorteio de números aleatórios, entre outros. Cada questão é um arquivo separado:
+### **Atividade 3**: Conjunto de programas abordando diversos conceitos como contagem, contagem regressiva, contagem com incremento variável, leitura de números pares e ímpares, sorteio de números aleatórios, entre outros. Cada questão é um arquivo separado:
   - [Questão 01](UC3%20-%20Logica%20de%20Programção/Atividade%203%20-%2024-05-24/questao_01.py): Imprimir a variável `i`. (Com `for`)
   - [Questão 02](UC3%20-%20Logica%20de%20Programção/Atividade%203%20-%2024-05-24/questao_02.py): Contar até um número informado pelo usuário. (Com `for`, `if` e `else`)
   - [Questão 03](UC3%20-%20Logica%20de%20Programção/Atividade%203%20-%2024-05-24/questao_03.py): Contagem regressiva marcando números divisíveis por 4. (Com `for`, `if`)
@@ -134,7 +134,7 @@ This repository contains a collection of simple programs developed during my Sys
   - [Question 15](UC3%20-%20Logic%20Programming/Activity%2001/question_15.py): Calculating the salary of an employee based on days worked in the month
   - [Question 16](UC3%20-%20Logic%20Programming/Activity%2001/question_16.py): Challenge of calculating the reduction in the lifespan of a smoker based on daily cigarette consumption and years of habit
 
-- **Activity 2**: Scripts using `if`, `elif`, and `else` statements.
+### **Activity 2**: Scripts using `if`, `elif`, and `else` statements.
   -  [Question 01](UC3%20-%20Logica%20de%20Programação/Atividade%2002/questao_01.py): Check and apply a fine if a car's speed exceeds 80Km/h.
   -  [Question 02](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_02.py): Check a person's age to determine if they can vote.
   -  [Question 03](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_03.py): Calculate a student's average and check if they performed well based on two grades.
@@ -157,7 +157,7 @@ This repository contains a collection of simple programs developed during my Sys
   -  [Question 20](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_20.py): Calculate points and financial gains based on monthly hours of physical activity, with different points rates per hour.
   -  [Question 21](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_21.py): Calculate new employee salaries based on current salary, gender, and years of service in the company, with different percentage increases.
 
-- **Activity 3**: Set of programs covering various concepts such as counting, countdown, counting with variable increment, reading even and odd numbers, random number drawing, among others. Each question is a separate file:
+### **Activity 3**: Set of programs covering various concepts such as counting, countdown, counting with variable increment, reading even and odd numbers, random number drawing, among others. Each question is a separate file:
   - [Question 01](UC3%20-%20Logica%20de%20Programção/Atividade%203%20-%2024-05-24/questao_01.py): Print the variable `i`. (With `for`)
   - [Question 02](UC3%20-%20Logica%20de%20Programção/Atividade%203%20-%2024-05-24/questao_02.py): Count up to a number entered by the user. (With `for`)
   - [Question 03](UC3%20-%20Logica%20de%20Programção/Atividade%203%20-%2024-05-24/questao_03.py): Countdown marking numbers divisible by 4. (With `for`, `if` and `else`)
