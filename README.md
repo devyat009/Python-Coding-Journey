@@ -16,9 +16,21 @@ Este repositório contém uma coleção de programas simples desenvolvidos duran
 
 ### Guia de Informações dos arquivos:
 
-#### Lógica de Programação
+## Sumário
 
-- **Atividade 1**: Em breve... :)
+### [Lógica de Programação](#lógica-de-programação-1)
+- [Atividade 1](#atividade-1-o-básico-de-python)
+- [Atividade 2](#atividade-2-scripts-utilizando-declarações-if-elif-else-for-while-e-def-com-validações)
+- [Atividade 3](#atividade-3-conjunto-de-programas-abordando-contagem-contagem-regressiva-contagem-com-incremento-variável-leitura-de-números-pares-e-ímpares-sorteio-de-números-aleatórios-entre-outros-cada-questão-é-um-arquivo-separado)
+
+### [Programação Orientada a Objetos](#programação-orientada-a-objetos-1)
+- [Atividade 1](#atividade-1-scripts-utilizando-class)
+- [Atividade 2](#atividade-2)
+- [Atividade 3](#atividade-3)
+
+## Lógica de Programação
+<a name="lógica-de-programação"></a>
+- **Atividade 1**: O basico de Python
   - [Questão 01](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_01.py): Primeiro `Hello World`
   - [Questão 02](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_02.py): Primeiro uso do `input`
   - [Questão 03](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_03.py): Uso de multiplos `input` para imprimir o nome e salário.
@@ -46,8 +58,7 @@ Este repositório contém uma coleção de programas simples desenvolvidos duran
   - [Questão 08](UC3%20-%20Logica%20de%20Programção/Atividade%20024/questao_08.py): Programa para calcular o preço da passagem com base na distância percorrida.
   - [Questão 09](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_09.py): Programa para verificar se três segmentos de reta podem formar um triângulo, com base nas condições matemáticas de desigualdade triangular.
   - [Questão 10](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_10.py): Programa para comparar dois números inteiros e determinar qual é o maior ou se são iguais.
-  - [Questão 11](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_11.py): 
-Cálculo a média de duas notas de um aluno e exibe sua situação acadêmica com base na média alcançada.
+  - [Questão 11](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_11.py): Cálculo a média de duas notas de um aluno e exibe sua situação acadêmica com base na média alcançada.
   - [Questão 12](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_12.py): Cálculo da área de um terreno retangular com base na largura e comprimento inseridos pelo usuário, classificando-o como popular, master ou VIP dependendo da área calculada.
   - [Questão 13](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_13.py): Calcula o novo salário de um funcionário baseado no tempo de serviço na empresa.
   - [Questão 14](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_14.py): Refaz o cálculo do tipo de triângulo baseado nos lados fornecidos. (Incompleto)
@@ -73,7 +84,8 @@ Cálculo a média de duas notas de um aluno e exibe sua situação acadêmica co
   - [Questão 11](UC3%20-%20Logica%20de%20Programção/Atividade%203%20-%2024-05-24/questao_11.py): Calcular a altura média, número de pessoas com mais de 90kg, pessoas com menos de 50kg e menos de 1,60m, e pessoas com mais de 1,90m e mais de 100kg.
   - [Questão 12](UC3%20-%20Logica%20de%20Programção/Atividade%203%20-%2024-05-24/questao_12.py): Jogo em que o usuário tenta adivinhar um número sorteado entre 1 e 10 em 4 tentativas.
 
-#### Programação Orientada a Objetos
+## Programação Orientada a Objetos
+<a name="programação-orientada-a-objetos"></a>
 
 - **Atividade 1**: Scripts usando `class`.
     - [Questão 01](UC4%20-%20Programação%20Orientada%20a%20Objetos/Atividade%20-%2001/Atividade%20-%201%20Heroi.py): Jogo em que 2 jogadores selecionam persoagens e seus ataques.
