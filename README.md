@@ -14,8 +14,6 @@ Aviso: Este repositório contem código totalmente em português.
 
 Este repositório contém uma coleção de programas simples desenvolvidos durante meu curso de Desenvolvimento de Sistemas.
 
-### Guia de Informações dos arquivos:
-
 ## Sumário
 
 ### [Lógica de Programação](#lógica-de-programação-1)
@@ -98,8 +96,6 @@ Aviso: Se você deseja fazer qualquer alteração no código de qualquer arquivo
 ## <img src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg" width="35" height="25" align="left">English
 
 This repository contains a collection of simple programs developed during my Systems Development course.
-
-### Files Information Guide:
 
 ## Summary
 
