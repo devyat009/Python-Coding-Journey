@@ -1,11 +1,13 @@
 # Python Repository
+Disclaimer: This repository contains 100% code is in portuguese brazilian.
 
+Aviso: Este repositorio contem codigo totalmente em português.
 ### Opções de Idioma / Language Options
 
 - [Read in English](#english)
 - [Leia em Português (Brasil)](#português)
 
-## <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg" width="35" height="25" align="center">Português
+## Português <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg" width="35" height="25" align="center">
 
 Este repositório contém uma coleção de programas simples desenvolvidos durante meu curso de Desenvolvimento de Sistemas.
 
@@ -56,7 +58,7 @@ Este repositório contém uma coleção de programas simples desenvolvidos duran
 - **Atividade 1**: Scripts usando `class`.
 
 
-## <img src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg" width="35" height="25" align="center">English
+## English <img src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg" width="35" height="25" align="center">
 
 This repository contains a collection of simple programs developed during my Systems Development course.
 
