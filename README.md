@@ -10,7 +10,7 @@ Aviso: Este repositório contem código totalmente em português.
 - [Read in English](#english)
 - [Leia em Português (Brasil)](#português)
 
-## <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg" width="35" height="25" align="center">Português
+## <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg" width="35" height="25" align="top">Português
 
 Este repositório contém uma coleção de programas simples desenvolvidos durante meu curso de Desenvolvimento de Sistemas.
 
@@ -93,14 +93,47 @@ Este repositório contém uma coleção de programas simples desenvolvidos duran
     - [Questão 01](UC4%20-%20Programação%20Orientada%20a%20Objetos/Atividade%20-%2002/Questao_01.py): Implementa classes para calcular área e perímetro de circunferência, triângulo e quadrado.
 - **Atividade 3**:
 
-## <img src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg" width="35" height="25" align="center">English
+Aviso: Se você deseja fazer qualquer alteração no código de qualquer arquivo, por favor, crie uma solicitação de pull request.
+
+## <img src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg" width="35" height="25" align="top">English
 
 This repository contains a collection of simple programs developed during my Systems Development course.
 
 ### Files Information Guide:
 
-#### Programming Logic
-- **Activity 1**: Coming Soon :)
+## Summary
+
+### [Programming Logic](#programing-logic)
+- [Atividade 1](#activity-1-python-basics)
+- [Atividade 2](#atividade-2-scripts-utilizando-declarações-if-elif-else-for-while-e-def-com-validações)
+- [Atividade 3](#atividade-3-conjunto-de-programas-abordando-contagem-contagem-regressiva-contagem-com-incremento-variável-leitura-de-números-pares-e-ímpares-sorteio-de-números-aleatórios-entre-outros-cada-questão-é-um-arquivo-separado)
+
+### [Programação Orientada a Objetos](#programação-orientada-a-objetos-1)
+- [Atividade 1](#atividade-1-scripts-utilizando-class)
+- [Atividade 2](#atividade-2)
+- [Atividade 3](#atividade-3)
+
+## Programming Logic
+<a name="programing-logic"></a>
+
+- Activity 1: Python Basics
+  - [Question 01](UC3%20-%20Logic%20Programming/Activity%2001/question_01.py): First `Hello World`
+  - [Question 02](UC3%20-%20Logic%20Programming/Activity%2001/question_02.py): First use of `input`
+  - [Question 03](UC3%20-%20Logic%20Programming/Activity%2001/question_03.py): Using multiple `input` to print name and salary
+  - [Question 04](UC3%20-%20Logic%20Programming/Activity%2001/question_04.py): Reading integers to display their sum
+  - [Question 05](UC3%20-%20Logic%20Programming/Activity%2001/question_05.py): Reading grades and calculating average
+  - [Question 06](UC3%20-%20Logic%20Programming/Activity%2001/question_06.py): Displaying successor and predecessor of a number
+  - [Question 07](UC3%20-%20Logic%20Programming/Activity%2001/question_07.py): Reading a real number and printing its double and third
+  - [Question 08](UC3%20-%20Logic%20Programming/Activity%2001/question_08.py): Converting meters to 7 other Metric System measures
+  - [Question 09](UC3%20-%20Logic%20Programming/Activity%2001/question_09.py): Currency conversion from R$ (Real) to $ (Dollar)
+  - [Question 10](UC3%20-%20Logic%20Programming/Activity%2001/question_10.py): Calculating area to be painted and amount of paint needed for a wall
+  - [Question 11](UC3%20-%20Logic%20Programming/Activity%2001/question_11.py): Calculating the value of Delta for a second-degree equation
+  - [Question 12](UC3%20-%20Logic%20Programming/Activity%2001/question_12.py): Calculating the promotional price of a product with a 5% discount
+  - [Question 13](UC3%20-%20Logic%20Programming/Activity%2001/question_13.py): Calculating the new salary of an employee with a 15% raise
+  - [Question 14](UC3%20-%20Logic%20Programming/Activity%2001/question_14.py): Calculating the total price to pay for car rental based on kilometers traveled and days rented
+  - [Question 15](UC3%20-%20Logic%20Programming/Activity%2001/question_15.py): Calculating the salary of an employee based on days worked in the month
+  - [Question 16](UC3%20-%20Logic%20Programming/Activity%2001/question_16.py): Challenge of calculating the reduction in the lifespan of a smoker based on daily cigarette consumption and years of habit
+
 - **Activity 2**: Scripts using `if`, `elif`, and `else` statements.
   -  [Question 01](UC3%20-%20Logica%20de%20Programação/Atividade%2002/questao_01.py): Check and apply a fine if a car's speed exceeds 80Km/h.
   -  [Question 02](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_02.py): Check a person's age to determine if they can vote.
@@ -138,7 +171,14 @@ This repository contains a collection of simple programs developed during my Sys
   - [Question 11](UC3%20-%20Logica%20de%20Programção/Atividade%203%20-%2024-05-24/questao_11.py): Calculate the average height, number of people over 90kg, people under 50kg and under 1.60m, and people over 1.90m and over 100kg.
   - [Question 12](UC3%20-%20Logica%20de%20Programção/Atividade%203%20-%2024-05-24/questao_12.py): Game where the user tries to guess a number drawn between 1 and 10 in 4 attempts.
 
-#### Object-Oriented Programming
-- **Activity 1**: Scripts using `class`.
+## Object-Oriented Programming
+
+- Activity 1: Scripts using `class`.
+  - [Question 01](UC4%20-%20Object%20Oriented%20Programming/Activity%20-%2001/Activity%20-%201%20Hero.py): Game where 2 players select characters and their attacks.
+
+- Activity 2:
+  - [Question 01](UC4%20-%20Object%20Oriented%20Programming/Activity%20-%2002/Question_01.py): Implements classes to calculate area and perimeter of circle, triangle, and square.
+
+- Activity 3:
 
 Disclaimer: If you want to make any changes to the code in any file, please create a pull request.
