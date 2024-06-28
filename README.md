@@ -104,19 +104,19 @@ This repository contains a collection of simple programs developed during my Sys
 ## Summary
 
 ### [Programming Logic](#programing-logic)
-- [Atividade 1](#activity-1-python-basics)
-- [Atividade 2](#activity-2-scripts-using-if-elif-and-else-statments)
-- [Atividade 3](#activity-3-set-of-programs-covering-various-concepts-such-as-counting-countdown-counting-with-variable-increment-reading-even-and-odd-numbers-random-number-drawing-among-others-each-question-is-a-separate-file)
+- [Activity 1](#activity-1-python-basics)
+- [Activity 2](#activity-2-scripts-using-if-elif-and-else-statments)
+- [Activity 3](#activity-3-set-of-programs-covering-various-concepts-such-as-counting-countdown-counting-with-variable-increment-reading-even-and-odd-numbers-random-number-drawing-among-others-each-question-is-a-separate-file)
 
 ### [Object Oriented Programing](#object-oriented-programing)
-- [Atividade 1](#activity-1-scripts-using-class)
-- [Atividade 2](#atividade-2)
-- [Atividade 3](#atividade-3)
+- [Activity 1](#activity-1-scripts-using-class)
+- [Activity 2](#activity-2)
+- [Activity 3](#activity-3)
 
 ## Programming Logic
 <a name="programing-logic"></a>
 
-### Activity 1: Python Basics
+### **Activity 1**: Python Basics
   - [Question 01](UC3%20-%20Logic%20Programming/Activity%2001/question_01.py): First `Hello World`
   - [Question 02](UC3%20-%20Logic%20Programming/Activity%2001/question_02.py): First use of `input`
   - [Question 03](UC3%20-%20Logic%20Programming/Activity%2001/question_03.py): Using multiple `input` to print name and salary
