@@ -105,11 +105,11 @@ This repository contains a collection of simple programs developed during my Sys
 
 ### [Programming Logic](#programing-logic)
 - [Atividade 1](#activity-1-python-basics)
-- [Atividade 2](#atividade-2-scripts-utilizando-declarações-if-elif-else-for-while-e-def-com-validações)
-- [Atividade 3](#atividade-3-conjunto-de-programas-abordando-contagem-contagem-regressiva-contagem-com-incremento-variável-leitura-de-números-pares-e-ímpares-sorteio-de-números-aleatórios-entre-outros-cada-questão-é-um-arquivo-separado)
+- [Atividade 2](#activity-2-scripts-using-if-elif-and-else-statments)
+- [Atividade 3](#activity-3-set-of-programs-covering-various-concepts-such-as-counting-countdown-counting-with-variable-increment-reading-even-and-odd-numbers-random-number-drawing-among-others-each-question-is-a-separate-file)
 
-### [Programação Orientada a Objetos](#programação-orientada-a-objetos-1)
-- [Atividade 1](#atividade-1-scripts-utilizando-class)
+### [Object Oriented Programing](#object-oriented-programing)
+- [Atividade 1](#activity-1-scripts-using-class)
 - [Atividade 2](#atividade-2)
 - [Atividade 3](#atividade-3)
 
@@ -172,7 +172,7 @@ This repository contains a collection of simple programs developed during my Sys
   - [Question 12](UC3%20-%20Logica%20de%20Programção/Atividade%203%20-%2024-05-24/questao_12.py): Game where the user tries to guess a number drawn between 1 and 10 in 4 attempts.
 
 ## Object-Oriented Programming
-
+<a name="object-oriented-programing"></a>
 - Activity 1: Scripts using `class`.
   - [Question 01](UC4%20-%20Object%20Oriented%20Programming/Activity%20-%2001/Activity%20-%201%20Hero.py): Game where 2 players select characters and their attacks.
 
