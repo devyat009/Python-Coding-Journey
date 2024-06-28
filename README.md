@@ -1,7 +1,7 @@
 # Python Repository
 Disclaimer: This repository contains 100% code is in portuguese brazilian.
 
-Aviso: Este repositorio contem codigo totalmente em português.
+Aviso: Este repositório contem código totalmente em português.
 ### Opções de Idioma / Language Options
 
 - [Read in English](#english)
