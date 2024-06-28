@@ -16,28 +16,44 @@ Este repositório contém uma coleção de programas simples desenvolvidos duran
 #### Lógica de Programação
 
 - **Atividade 1**: Em breve... :)
+  - [Questão 01](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_01.py): Primeiro `Hello World`
+  - [Questão 02](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_02.py):
+  - [Questão 03](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_03.py):
+  - [Questão 04](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_04.py):
+  - [Questão 05](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_05.py):
+  - [Questão 06](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_06.py):
+  - [Questão 07](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_07.py):
+  - [Questão 08](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_08.py):
+  - [Questão 09](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_09.py):
+  - [Questão 10](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_10.py):
+  - [Questão 11](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_11.py):
+  - [Questão 12](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_12.py):
+  - [Questão 13](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_13.py):
+  - [Questão 14](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_14.py):
+  - [Questão 15](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_15.py):
+  - [Questão 16](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_16.py):
 - **Atividade 2**: Scripts utilizando declarações `if`, `elif`, e `else`.
-  - [Questão 01](UC3%20-%20Logica%20de%20Programção/Atividade%202%20-%2020-05-24/questao_01.py)
-  - [Questão 02](UC3%20-%20Logica%20de%20Programção/Atividade%202%20-%2020-05-24/questao_02.py)
-  - [Questão 03](UC3%20-%20Logica%20de%20Programção/Atividade%202%20-%2020-05-24/questao_03.py)
-  - [Questão 04](UC3%20-%20Logica%20de%20Programção/Atividade%202%20-%2020-05-24/questao_04.py)
-  - [Questão 05](UC3%20-%20Logica%20de%20Programção/Atividade%202%20-%2020-05-24/questao_05.py)
-  - [Questão 06](UC3%20-%20Logica%20de%20Programção/Atividade%202%20-%2020-05-24/questao_06.py)
-  - [Questão 07](UC3%20-%20Logica%20de%20Programção/Atividade%202%20-%2020-05-24/questao_07.py)
-  - [Questão 08](UC3%20-%20Logica%20de%20Programção/Atividade%202%20-%2020-05-24/questao_08.py)
-  - [Questão 09](UC3%20-%20Logica%20de%20Programção/Atividade%202%20-%2020-05-24/questao_09.py)
-  - [Questão 10](UC3%20-%20Logica%20de%20Programção/Atividade%202%20-%2020-05-24/questao_10.py)
-  - [Questão 11](UC3%20-%20Logica%20de%20Programção/Atividade%202%20-%2020-05-24/questao_11.py)
-  - [Questão 12](UC3%20-%20Logica%20de%20Programção/Atividade%202%20-%2020-05-24/questao_12.py)
-  - [Questão 13](UC3%20-%20Logica%20de%20Programção/Atividade%202%20-%2020-05-24/questao_13.py)
-  - [Questão 14](UC3%20-%20Logica%20de%20Programção/Atividade%202%20-%2020-05-24/questao_14.py)
-  - [Questão 15](UC3%20-%20Logica%20de%20Programção/Atividade%202%20-%2020-05-24/questao_15.py)
-  - [Questão 16](UC3%20-%20Logica%20de%20Programção/Atividade%202%20-%2020-05-24/questao_16.py)
-  - [Questão 17](UC3%20-%20Logica%20de%20Programção/Atividade%202%20-%2020-05-24/questao_17.py)
-  - [Questão 18](UC3%20-%20Logica%20de%20Programção/Atividade%202%20-%2020-05-24/questao_18.py)
-  - [Questão 19](UC3%20-%20Logica%20de%20Programção/Atividade%202%20-%2020-05-24/questao_19.py)
-  - [Questão 20](UC3%20-%20Logica%20de%20Programção/Atividade%202%20-%2020-05-24/questao_20.py)
-  - [Questão 21](UC3%20-%20Logica%20de%20Programção/Atividade%202%20-%2020-05-24/questao_21.py)
+  - [Questão 01](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2002/questao_01.py):
+  - [Questão 02](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_02.py)
+  - [Questão 03](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_03.py)
+  - [Questão 04](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_04.py)
+  - [Questão 05](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_05.py)
+  - [Questão 06](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_06.py)
+  - [Questão 07](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_07.py)
+  - [Questão 08](UC3%20-%20Logica%20de%20Programção/Atividade%20024/questao_08.py)
+  - [Questão 09](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_09.py)
+  - [Questão 10](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_10.py)
+  - [Questão 11](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_11.py)
+  - [Questão 12](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_12.py)
+  - [Questão 13](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_13.py)
+  - [Questão 14](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_14.py)
+  - [Questão 15](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_15.py)
+  - [Questão 16](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_16.py)
+  - [Questão 17](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_17.py)
+  - [Questão 18](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_18.py)
+  - [Questão 19](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_19.py)
+  - [Questão 20](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_20.py)
+  - [Questão 21](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_21.py)
 
 - **Atividade 3**: Conjunto de programas abordando diversos conceitos como contagem, contagem regressiva, contagem com incremento variável, leitura de números pares e ímpares, sorteio de números aleatórios, entre outros. Cada questão é um arquivo separado:
   - [Questão 01](UC3%20-%20Logica%20de%20Programção/Atividade%203%20-%2024-05-24/questao_01.py): Imprimir a variável `i`. (Com `for`)
