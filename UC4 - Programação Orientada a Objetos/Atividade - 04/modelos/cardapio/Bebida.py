@@ -1,4 +1,4 @@
-from modelos.cardapio.ItemCardapio import ItemCardapio
+from modelos.Cardapio.ItemCardapio import ItemCardapio
 class Bebida(ItemCardapio):
     """
     Informações:

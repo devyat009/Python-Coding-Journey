@@ -1,6 +1,5 @@
-import os
-from modelos.cardapio.Bebida import Bebida
-
+#from Cardapio.Bebida import Bebida
+from modelos.Avaliacao import Avaliacao
 class Restaurante:
     """
     Informações:
@@ -19,9 +18,12 @@ class Restaurante:
         self._ativo= True
         self._cardapio_bebida= []
         self._cardapio_prato = [] # Lista separada pois os pratos tem descrições grandes
+        self._lista_avaliacao = [] # Lista para avaliacao
         # Adiciona o restaurante na lista de restaurantes.
-        Restaurante.lista_restaurantes.append({'restaurante_nome': nome, 'restaurante_categoria': categoria, 'ativo': self.ativo}) 
-    
+        
+        #Restaurante.lista_restaurantes.append({'restaurante_nome': nome, 'restaurante_categoria': categoria, 'ativo': self.ativo}) 
+
+        Restaurante.lista_restaurantes.append(self)
     def __str__(self):
         """
         Feito para não retorna valor de mémoria.
@@ -49,6 +51,35 @@ class Restaurante:
             if restaurante['restaurante_nome'] == self._nome:
                 restaurante['ativo'] = self.ativo
 
+    def receber_avaliacao(self, cliente, nota):
+        '''
+        Informações:
+        ------------
+        Paremetro:
+        ----------
+        avaliacao = Avaliação a ser recebida
+        '''
+        #clien = Avaliacao(cliente, nota)
+        
+        self._lista_avaliacao.append({'cliente': cliente, 'nota': nota})
+        
+    
+    
+    def mostrar_avaliacao(self):
+        '''
+        Informações:
+        ------------
+        Mostrar avaliações e retorna a media
+        '''
+        if not self._lista_avaliacao:
+            print('Ainda não há avaliações para este restaurante.')
+            return 0.0
+    
+        # Calculando a média das avaliações
+        soma_notas = sum(avaliacao['nota'] for avaliacao in self._lista_avaliacao)
+        media = soma_notas / len(self._lista_avaliacao)
+        return media 
+
     @classmethod
     def listar_restaurantes(cls):
         """
@@ -60,11 +91,13 @@ class Restaurante:
         if not cls.lista_restaurantes:
             print('⚠ A lista de restaurantes está vazia ⚠')
             return
-        # Imprimir a lista de de restaurantes 
+        # Imprimir a lista de de restaurantes com sua media
+        
         print(f'{"╾─╼"} {("RESTAURANTE").ljust(15)} ╾{"─"*13}╼ {("CATEGORIA").ljust(15)} ╾{"─"*2}╼ {("STATUS").ljust(10)}')
         for i, restaurante in enumerate(cls.lista_restaurantes, start=1):
-           print(f'⤍ {i} {(restaurante["restaurante_nome"]).ljust(15)} {"─"*15} {(restaurante["restaurante_categoria"]).ljust(15)} {"─"*4} {restaurante["ativo"]}')
-
+            avaliacao_media =restaurante.mostrar_avaliacao()
+            #print(f'⤍ {i} {(restaurante["restaurante_nome"]).ljust(15)} {"─"*15} {(restaurante["restaurante_categoria"]).ljust(15)} {"─"*4} {restaurante["ativo"]} {avaliacao_media:.2f}')
+            print(f'⤍ {i} {restaurante._nome.ljust(15)} {"─"*15} {restaurante._categoria.ljust(15)} {"─"*4} {restaurante.ativo.ljust(10)} {avaliacao_media:.2f}')
     @classmethod
     def alterar_status_alvo(cls, alvo):
         """
@@ -133,6 +166,19 @@ class Restaurante:
         print(f'{"╾─╼"} {("ITEM").ljust(15)} ╾{"─"*17}╼ {("PREÇO").ljust(10)} ╾{"─"*2}╼ {("    DESCRIÇÃO").ljust(60)}')
         for i in self._cardapio_prato:
             print(f'{i}')
+
+    
+    
+
+
+
+
+
+
+
+
+
+
 
     @classmethod
     def restaurante_add(cls, nome, categoria):

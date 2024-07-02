@@ -1,3 +1,4 @@
 {
-    "docwriter.progress.trackMethods": true
+    "docwriter.progress.trackMethods": true,
+    "python.REPL.enableREPLSmartSend": false
 }

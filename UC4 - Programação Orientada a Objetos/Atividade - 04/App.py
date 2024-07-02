@@ -10,9 +10,9 @@
 
 # Imports
 from modelos.Restaurante import Restaurante
-from modelos.cardapio.ItemCardapio import ItemCardapio
-from modelos.cardapio.Bebida import  Bebida
-from modelos.cardapio.Prato import Prato
+from modelos.Cardapio.ItemCardapio import ItemCardapio
+from modelos.Cardapio.Bebida import  Bebida
+from modelos.Cardapio.Prato import Prato
 import os
 class App():
     """
@@ -70,6 +70,21 @@ ______          _                              _
         print(f'┃ {('〔 5 - Sair                                 〕').ljust(45)}┃')
         print(f'┗{('━'*48).ljust(40)}┛')
 
+    def paineldorestaurante(self):
+        os.system('cls')
+        # for restaurante in Restaurante.lista_restaurantes:
+        #     print(f"Bem-vindo ao '{restaurante['restaurante_nome']}'")
+        #     print(f"{i} - Opção {i}")
+        for i, restaurante in enumerate(Restaurante.lista_restaurantes, start=1):
+            print(f"Bem-vindo ao '{restaurante['restaurante_nome']}'")
+            break
+        print(f"{i} - Listar Cardapio")
+        while True:
+            escolha = int(input('Escolha: '))
+            match escolha:
+                case 1:
+                    print('ok')
+                    break
 
     def main(self):
         """
@@ -85,7 +100,20 @@ ______          _                              _
                 case 1:
                     os.system('cls')
                     Restaurante.listar_restaurantes()
-                    app.limpar_terminal()
+                    
+                    confirmacacao = input('Deseja acessar algum restaurante? (s/n)').lower()
+                    if confirmacacao == 's':
+                        alvo = input('Digite o número correspondente ao restaurante: ')
+                        alvo = int(alvo)
+                        if 0 < alvo <= len(Restaurante.lista_restaurantes):
+                            restaurante_escolhido = Restaurante.lista_restaurantes[alvo - 1]
+                            print(f'Você escolheu o restaurante {restaurante_escolhido["restaurante_nome"]}...')
+                            #app.limpar_terminal()
+                            app.paineldorestaurante()
+                            break
+                    else:
+                        app.limpar_terminal()
+                        app.main()
                 case 2:
                     os.system('cls')
                     print('Os restaurantes foram listado, selecione o desejado para alterar o estado pelo seu número.')
@@ -94,7 +122,7 @@ ______          _                              _
                     Restaurante.alterar_status_alvo(escolha)
                     Restaurante.listar_restaurantes()
                 case 3:
-                    pass
+                    app.paineldorestaurante()
                 case 4:
                     pass
                 case 5:
@@ -105,12 +133,16 @@ ______          _                              _
                     app.limpar_terminal()
                     
 
-print('─'*67)
-KiGordo = Restaurante('KiGordo', 'FastFood')
-ChurradoSul = Restaurante('Churras do Sul', 'Churrascaria')
-#ChurradoSul.alterar_status(False)
-ChurradoSul.alterar_status()
-# Restaurante.listar_restaurantes()
+r1 = Restaurante("Restaurante A", "Italiana")
+r2 = Restaurante("Restaurante B", "Japonesa")
+r3 = Restaurante("Restaurante C", "Brasileira")
+
+# Adicionar algumas avaliações
+r1._lista_avaliacao.append({'nota': 4})
+r1._lista_avaliacao.append({'nota': 5})
+
+r2._lista_avaliacao.append({'nota': 3})
+r2._lista_avaliacao.append({'nota': 4})
 
 app = App()
 app.main()
