@@ -48,7 +48,8 @@ class Restaurante:
         """
         self._ativo = not self._ativo
         for restaurante in Restaurante.lista_restaurantes:
-            if restaurante['restaurante_nome'] == self._nome:
+            if restaurante == self._nome:
+            #if restaurante['restaurante_nome'] == self._nome:
                 restaurante['ativo'] = self.ativo
 
     def receber_avaliacao(self, cliente, nota):
@@ -72,7 +73,6 @@ class Restaurante:
         Mostrar avaliações e retorna a media
         '''
         if not self._lista_avaliacao:
-            print('Ainda não há avaliações para este restaurante.')
             return 0.0
     
         # Calculando a média das avaliações
@@ -92,27 +92,27 @@ class Restaurante:
             print('⚠ A lista de restaurantes está vazia ⚠')
             return
         # Imprimir a lista de de restaurantes com sua media
-        
-        print(f'{"╾─╼"} {("RESTAURANTE").ljust(15)} ╾{"─"*13}╼ {("CATEGORIA").ljust(15)} ╾{"─"*2}╼ {("STATUS").ljust(10)}')
+        print(f'┏{('━'*84).ljust(84)}┓')
+        print(f'┃{"─╼"} {("RESTAURANTE").ljust(15)} ╾{"─"*13}╼ {("CATEGORIA").ljust(15)} ╾{"─"*2}╼ {("STATUS").ljust(10)} ╾{"─"*2}╼ AVALIAÇÃO ╾─┃')
         for i, restaurante in enumerate(cls.lista_restaurantes, start=1):
-            avaliacao_media =restaurante.mostrar_avaliacao()
-            #print(f'⤍ {i} {(restaurante["restaurante_nome"]).ljust(15)} {"─"*15} {(restaurante["restaurante_categoria"]).ljust(15)} {"─"*4} {restaurante["ativo"]} {avaliacao_media:.2f}')
-            print(f'⤍ {i} {restaurante._nome.ljust(15)} {"─"*15} {restaurante._categoria.ljust(15)} {"─"*4} {restaurante.ativo.ljust(10)} {avaliacao_media:.2f}')
+            avaliacao_media = restaurante.mostrar_avaliacao()
+            print(f'┃ {i} {restaurante._nome.ljust(15)} {"─"*15} {restaurante._categoria.ljust(15)} {"─"*4} {restaurante.ativo.ljust(10)} {"─"*4} {f"{avaliacao_media:.2f}".ljust(11)} ┃')
+        print(f'┗{('━'*84).ljust(84)}┛')
     @classmethod
+    
     def alterar_status_alvo(cls, alvo):
         """
         Informações:
         -------------
         Capaz de listar os restaurantes de forma enumerada para ser capaz de alterar o estado
 
-        Parametro:
+        Parâmetro:
         -----------
         alvo - Número alvo para alterar o estado
         
         """
         if 0 < alvo <= len(cls.lista_restaurantes):
-            cls.listar_restaurantes[alvo - 1]
-            Restaurante.alterar_status()
+            cls.lista_restaurantes[alvo - 1].alterar_status()
             print('O restaurante foi alterado com sucesso')
 
     def adicionar_no_cardapio_bebida(self, item):
@@ -152,7 +152,7 @@ class Restaurante:
         Função de Restaurante
         """
         print(f'╾{"─"*30} Bebidas Disponíveis {"─"*30}╼')
-        print(f'{"╾─╼"} {("ITEM").ljust(15)} ╾{"─"*17}╼ {("    DESCRIÇÃO").ljust(17)} ╾{"─"*2}╼ {("PREÇO").ljust(10)}')
+        print(f'{"╾─╼"} {("ITEM").ljust(15)} ╾{"─"*17}╼ {("PREÇO").ljust(10)}')
         for i in self._cardapio_bebida:
             print(f'{i}')
 
@@ -166,29 +166,3 @@ class Restaurante:
         print(f'{"╾─╼"} {("ITEM").ljust(15)} ╾{"─"*17}╼ {("PREÇO").ljust(10)} ╾{"─"*2}╼ {("    DESCRIÇÃO").ljust(60)}')
         for i in self._cardapio_prato:
             print(f'{i}')
-
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-    @classmethod
-    def restaurante_add(cls, nome, categoria):
-        """
-        Informações:
-        ------------
-        Responsavel por adicionar novos restaurantes a lista de restaurantes.
-
-        Uso:
-        ------------
-        Restaurante.restaurante_add('Exemplo de Restaurante', 'Churrascaria')
-        """
-        cls.lista_restaurantes.append({'restaurante_nome': nome, 'restaurante_categoria': categoria})

@@ -13,6 +13,7 @@ from modelos.Restaurante import Restaurante
 from modelos.Cardapio.ItemCardapio import ItemCardapio
 from modelos.Cardapio.Bebida import  Bebida
 from modelos.Cardapio.Prato import Prato
+from modelos.Avaliacao import Avaliacao
 import os
 class App():
     """
@@ -24,6 +25,9 @@ class App():
     """
 
     def __init__(self):
+        '''
+        Ignorado por enquanto...
+        '''
         pass
     
     @classmethod
@@ -52,14 +56,7 @@ class App():
     
 
     def login_banner(self):
-        print('''
-______          _                              _       
-| ___ \        | |                            | |      
-| |_/ /___  ___| |_ __ _ _   _ _ __ __ _ _ __ | |_ ___ 
-|    // _ \/ __| __/ _` | | | | '__/ _` | '_ \| __/ _ |
-| |\ \  __/\__ \ || (_| | |_| | | | (_| | | | | ||  __/
-\_| \_\___||___/\__\__,_|\__,_|_|  \__,_|_| |_|\__\___|
-''')
+        print('\nTitulo PLACEHOLDER')
 
     def opcoes_inicio(self):
         print(f'┏{('━'*48).ljust(40)}┓')
@@ -70,21 +67,29 @@ ______          _                              _
         print(f'┃ {('〔 5 - Sair                                 〕').ljust(45)}┃')
         print(f'┗{('━'*48).ljust(40)}┛')
 
-    def paineldorestaurante(self):
+    def paineldorestaurante(self, restaurante):
+        """
+        Informações:
+        ------------
+        Função que chama o menu do painel e suas opções
+        """
         os.system('cls')
         # for restaurante in Restaurante.lista_restaurantes:
         #     print(f"Bem-vindo ao '{restaurante['restaurante_nome']}'")
         #     print(f"{i} - Opção {i}")
-        for i, restaurante in enumerate(Restaurante.lista_restaurantes, start=1):
-            print(f"Bem-vindo ao '{restaurante['restaurante_nome']}'")
-            break
-        print(f"{i} - Listar Cardapio")
+        print(f'\nBem-vindo ao {restaurante._nome}')
+        print(f'1 - Listar Cardapio')
+        print(f'2 - Voltar')
         while True:
             escolha = int(input('Escolha: '))
             match escolha:
                 case 1:
-                    print('ok')
+                    restaurante.mostrar_cardapio_prato()
+                    restaurante.mostrar_cardapio_bebida()
                     break
+                case 2:
+                    os.system('cls')
+                    app.main()
 
     def main(self):
         """
@@ -101,15 +106,15 @@ ______          _                              _
                     os.system('cls')
                     Restaurante.listar_restaurantes()
                     
-                    confirmacacao = input('Deseja acessar algum restaurante? (s/n)').lower()
+                    confirmacacao = input('Deseja acessar algum restaurante? (s/n)\n').lower()
                     if confirmacacao == 's':
                         alvo = input('Digite o número correspondente ao restaurante: ')
                         alvo = int(alvo)
                         if 0 < alvo <= len(Restaurante.lista_restaurantes):
                             restaurante_escolhido = Restaurante.lista_restaurantes[alvo - 1]
-                            print(f'Você escolheu o restaurante {restaurante_escolhido["restaurante_nome"]}...')
+                            print(f'Você escolheu o restaurante {restaurante_escolhido._nome}...')
                             #app.limpar_terminal()
-                            app.paineldorestaurante()
+                            app.paineldorestaurante(restaurante_escolhido)
                             break
                     else:
                         app.limpar_terminal()
@@ -132,18 +137,30 @@ ______          _                              _
                     print('Insira uma opção valida.')
                     app.limpar_terminal()
                     
+# Adição de restaurantes e categoria exemplo:
+r1 = Restaurante('Restaurante A', 'Italiana')
+r2 = Restaurante('Restaurante B', 'Japonesa')
+r3 = Restaurante('Restaurante C', 'Brasileira')
+r4 = Restaurante('Restaurante D', 'FastFood')
 
-r1 = Restaurante("Restaurante A", "Italiana")
-r2 = Restaurante("Restaurante B", "Japonesa")
-r3 = Restaurante("Restaurante C", "Brasileira")
+# Trocar status do restaurante exemplo:
+r4.alterar_status()
 
-# Adicionar algumas avaliações
-r1._lista_avaliacao.append({'nota': 4})
-r1._lista_avaliacao.append({'nota': 5})
+# Adicao de bebidas exemplo:
+b_suco = ItemCardapio('Suco Laranja', 6.00)
+b_pepsi = Bebida('Pepsi', '1L', 9.00)
+
+r1.adicionar_no_cardapio_bebida(b_suco)
+r2.adicionar_no_cardapio_bebida(b_pepsi)
+
+# Adicionar algumas avaliações exemplo:
+r1.receber_avaliacao('João', 8)
+r1.receber_avaliacao('Francisco', 6)
 
 r2._lista_avaliacao.append({'nota': 3})
-r2._lista_avaliacao.append({'nota': 4})
+r2._lista_avaliacao.append({'nota': 7})
 
+# Rodar o programa.
 app = App()
 app.main()
 
@@ -153,7 +170,7 @@ app.main()
 
 
 # print('─'*67)
-# suco = ItemCardapio('Suco Laranja', 6.00)
+# 
 # suco2 = Bebida('Laranjola', '300ml', 12.00)
 # suco1 = Bebida('Vodka Kadov', '1L', 35.00)
 # carne = Prato('Costela', 19.99, 'Costela banhada no oleo')
