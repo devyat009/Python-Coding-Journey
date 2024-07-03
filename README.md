@@ -85,11 +85,14 @@ Este repositório contém uma coleção de programas simples desenvolvidos duran
 ## Programação Orientada a Objetos
 <a name="programação-orientada-a-objetos"></a>
 
-- **Atividade 1**: Scripts usando `class`.
-    - [Questão 01](UC4%20-%20Programação%20Orientada%20a%20Objetos/Atividade%20-%2001/Atividade%20-%201%20Heroi.py): Jogo em que 2 jogadores selecionam persoagens e seus ataques.
-- **Atividade 2**:
-    - [Questão 01](UC4%20-%20Programação%20Orientada%20a%20Objetos/Atividade%20-%2002/Questao_01.py): Implementa classes para calcular área e perímetro de circunferência, triângulo e quadrado.
-- **Atividade 3**:
+### **Atividade 1**: Scripts usando `class`.
+  - [Questão 01](UC4%20-%20Programação%20Orientada%20a%20Objetos/Atividade%20-%2001/Atividade%20-%201%20Heroi.py): Jogo em que 2 jogadores selecionam persoagens e seus ataques.
+### **Atividade 2**:
+  - [Questão 01](UC4%20-%20Programação%20Orientada%20a%20Objetos/Atividade%20-%2002/Questao_01.py): Implementa classes para calcular área e perímetro de circunferência, triângulo e quadrado.
+### **Atividade 3**: Biblioteca usando classes em arquvivos diferentes.
+  - [Questão_01](UC4%20-%20Programação%20Orientada%20a%20Objetos/Atividade%20-%2003/Questao_01.py): WORK IN PROGRESS... <img src="https://media1.tenor.com/m/RVvnVPK-6dcAAAAC/reload-cat.gif" width="25" height="25" />
+### **Atividade 4**: Restaurante com classes em arquvivos diferentes.
+  - [Programa](UC4%20-%20Programação%20Orientada%20a%20Objetos/Atividade%20-%2004/App.py): Restaurante com capacidade de adicionar restaurantes, alterar status, adicionar itens ao cardapio.
 
 Aviso: Se você deseja fazer qualquer alteração no código de qualquer arquivo, por favor, crie uma solicitação de pull request.
 
