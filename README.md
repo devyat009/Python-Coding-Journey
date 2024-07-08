@@ -174,10 +174,11 @@ This repository contains a collection of simple programs developed during my Sys
 <a name="object-oriented-programing"></a>
 ### Activity 1: Scripts using `class`.
   - [Question 01](UC4%20-%20Object%20Oriented%20Programming/Activity%20-%2001/Activity%20-%201%20Hero.py): Game where 2 players select characters and their attacks.
-
 ### Activity 2:
   - [Question 01](UC4%20-%20Object%20Oriented%20Programming/Activity%20-%2002/Question_01.py): Implements classes to calculate area and perimeter of circle, triangle, and square.
-
 ### Activity 3:
+  - [Questão_01](UC4%20-%20Programação%20Orientada%20a%20Objetos/Atividade%20-%2003/Questao_01.py): WORK IN PROGRESS... <img src="https://media1.tenor.com/m/RVvnVPK-6dcAAAAC/reload-cat.gif" width="25" height="25" />
+### **Atividade 4**: Restaurante com classes em arquvivos diferentes.
+  - [Programa](UC4%20-%20Programação%20Orientada%20a%20Objetos/Atividade%20-%2004/App.py): Restaurant with capacity to add more restaurants, change status, add itens to menu.
 
 Disclaimer: If you want to make any changes to the code in any file, please create a pull request.
