@@ -23,8 +23,10 @@ Este repositório contém uma coleção de programas simples desenvolvidos duran
 
 ### [Programação Orientada a Objetos](#programação-orientada-a-objetos-1)
 - [Atividade 1](#atividade-1-scripts-utilizando-class): Scripts usando `class`.
-- [Atividade 2](#atividade-2): 
-- [Atividade 3](#atividade-3): 
+- [Atividade 2](#atividade-2): Classe simples para calcular areas.
+- [Atividade 3](#atividade-3): Programa back-end de uma livraria usando class.
+- [Atividade 4](#atividade-4): Programa back-end de um restaurante usando class.
+- [API's](#apis): Uso de API's.
 
 ## Lógica de Programação
 <a name="lógica-de-programação"></a>
@@ -116,8 +118,10 @@ This repository contains a collection of simple programs developed during my Sys
 
 ### [Object Oriented Programing](#object-oriented-programing)
 - [Activity 1](#activity-1-scripts-using-class): Scripts using `class`.
-- [Activity 2](#activity-2): 
-- [Activity 3](#activity-3): 
+- [Activity 2](#activity-2): Simple class to calculate areas.
+- [Activity 3](#activity-3): Library program using class.
+- [Activity 4](#activity-4): Restaurant program using class.
+- [API's](#apis-en): API's use.
 
 ## Programming Logic
 <a name="programing-logic"></a>
@@ -181,14 +185,14 @@ This repository contains a collection of simple programs developed during my Sys
 <a name="object-oriented-programing"></a>
 ### Activity 1: Scripts using `class`.
   - [Question 01](UC4%20-%20Object%20Oriented%20Programming/Activity%20-%2001/Activity%20-%201%20Hero.py): Game where 2 players select characters and their attacks.
-### Activity 2:
+### Activity 2: Simple class to calculate areas.
   - [Question 01](UC4%20-%20Object%20Oriented%20Programming/Activity%20-%2002/Question_01.py): Implements classes to calculate area and perimeter of circle, triangle, and square.
 ### Activity 3: Library program using class.
-  - [Questão_01](UC4%20-%20Programação%20Orientada%20a%20Objetos/Atividade%20-%2003/Questao_01.py): WORK IN PROGRESS... <img src="https://media1.tenor.com/m/RVvnVPK-6dcAAAAC/reload-cat.gif" width="25" height="25" />
-### **Atividade 4**: Restaurant program using class.
+  - [Question_01](UC4%20-%20Programação%20Orientada%20a%20Objetos/Atividade%20-%2003/Questao_01.py): WORK IN PROGRESS... <img src="https://media1.tenor.com/m/RVvnVPK-6dcAAAAC/reload-cat.gif" width="25" height="25" />
+### **Activity 4**: Restaurant program using class.
   - [Programa](UC4%20-%20Programação%20Orientada%20a%20Objetos/Atividade%20-%2004/App.py): Restaurant with capacity to add more restaurants, change status, add itens to menu.
 
-### **APIs**: Scripts using APIs and Virtual Environments.
+### **APIs en**: Scripts using APIs and Virtual Environments.
   - [Activity 01](UC4%20-%20Programação%20Orientada%20a%20Objetos/API's/Atividade%20-%2001/request_dollar.py): A simple request to an API that updates the dollar value.
   - [Activity 02](UC4%20-%20Programação%20Orientada%20a%20Objetos/API's/Atividade%20-%2001/request_restaurante_simples.py): Request for a JSON of restaurants and menus.
   - [Activity 03](UC4%20-%20Programação%20Orientada%20a%20Objetos/API's/Atividade%20-%2001/request_restaurante_modificado.py): Request for the previous JSON, modifying the keys, saving each restaurant locally in separate files.
