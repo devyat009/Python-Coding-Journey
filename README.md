@@ -89,10 +89,17 @@ Este repositório contém uma coleção de programas simples desenvolvidos duran
   - [Questão 01](UC4%20-%20Programação%20Orientada%20a%20Objetos/Atividade%20-%2001/Atividade%20-%201%20Heroi.py): Jogo em que 2 jogadores selecionam persoagens e seus ataques.
 ### **Atividade 2**:
   - [Questão 01](UC4%20-%20Programação%20Orientada%20a%20Objetos/Atividade%20-%2002/Questao_01.py): Implementa classes para calcular área e perímetro de circunferência, triângulo e quadrado.
-### **Atividade 3**: Biblioteca usando classes em arquvivos diferentes.
+### **Atividade 3**: Biblioteca usando classes em arquivos diferentes.
   - [Questão_01](UC4%20-%20Programação%20Orientada%20a%20Objetos/Atividade%20-%2003/Questao_01.py): WORK IN PROGRESS... <img src="https://media1.tenor.com/m/RVvnVPK-6dcAAAAC/reload-cat.gif" width="25" height="25" />
-### **Atividade 4**: Restaurante com classes em arquvivos diferentes.
+### **Atividade 4**: Restaurante com classes em arquivos diferentes.
   - [Programa](UC4%20-%20Programação%20Orientada%20a%20Objetos/Atividade%20-%2004/App.py): Restaurante com capacidade de adicionar restaurantes, alterar status, adicionar itens ao cardapio.
+
+### **API's**: Scripts usando API's and Ambientes Virtuais.
+  - [Atividade 01](UC4%20-%20Programação%20Orientada%20a%20Objetos/API's/Atividade%20-%2001/request_dollar.py): Um simples request de uma API que atualiza o valor do dolar.
+  - [Atividade 02](UC4%20-%20Programação%20Orientada%20a%20Objetos/API's/Atividade%20-%2001/request_restaurante_simples.py): Request de um JSON de restaurantes e cardapios.
+  - [Atividade 03](UC4%20-%20Programação%20Orientada%20a%20Objetos/API's/Atividade%20-%2001/request_restaurante_modificado.py): Request do JSON anterior, porem modificando as chaves, salvando localmente cada restaurante em arquivos separados.
+  - [Output das Atividades 02 e 03](UC4%20-%20Programação%20Orientada%20a%20Objetos/API's/Atividade%20-%2001/output_files/): Arquivos JSON resultados da atividade 02 e 03.
+  - [Atividade 04](UC4%20-%20Programação%20Orientada%20a%20Objetos/API's/Atividade%20-%2002/FastAPI.py): Utilização da FastAPI para mostrar uma pagina HTML e arquivos JSON.
 
 Aviso: Se você deseja fazer qualquer alteração no código de qualquer arquivo, por favor, crie uma solicitação de pull request.
 
@@ -176,9 +183,17 @@ This repository contains a collection of simple programs developed during my Sys
   - [Question 01](UC4%20-%20Object%20Oriented%20Programming/Activity%20-%2001/Activity%20-%201%20Hero.py): Game where 2 players select characters and their attacks.
 ### Activity 2:
   - [Question 01](UC4%20-%20Object%20Oriented%20Programming/Activity%20-%2002/Question_01.py): Implements classes to calculate area and perimeter of circle, triangle, and square.
-### Activity 3:
+### Activity 3: Library program using class.
   - [Questão_01](UC4%20-%20Programação%20Orientada%20a%20Objetos/Atividade%20-%2003/Questao_01.py): WORK IN PROGRESS... <img src="https://media1.tenor.com/m/RVvnVPK-6dcAAAAC/reload-cat.gif" width="25" height="25" />
-### **Atividade 4**: Restaurante com classes em arquvivos diferentes.
+### **Atividade 4**: Restaurant program using class.
   - [Programa](UC4%20-%20Programação%20Orientada%20a%20Objetos/Atividade%20-%2004/App.py): Restaurant with capacity to add more restaurants, change status, add itens to menu.
+
+### **APIs**: Scripts using APIs and Virtual Environments.
+  - [Activity 01](UC4%20-%20Programação%20Orientada%20a%20Objetos/API's/Atividade%20-%2001/request_dollar.py): A simple request to an API that updates the dollar value.
+  - [Activity 02](UC4%20-%20Programação%20Orientada%20a%20Objetos/API's/Atividade%20-%2001/request_restaurante_simples.py): Request for a JSON of restaurants and menus.
+  - [Activity 03](UC4%20-%20Programação%20Orientada%20a%20Objetos/API's/Atividade%20-%2001/request_restaurante_modificado.py): Request for the previous JSON, modifying the keys, saving each restaurant locally in separate files.
+  - [Output of Activities 02 and 03](UC4%20-%20Programação%20Orientada%20a%20Objetos/API's/Atividade%20-%2001/output_files/): JSON files resulting from activities 02 and 03.
+  - [Activity 04](UC4%20-%20Programação%20Orientada%20a%20Objetos/API's/Atividade%20-%2002/FastAPI.py): Using FastAPI to display an HTML page and JSON files.
+
 
 Disclaimer: If you want to make any changes to the code in any file, please create a pull request.
