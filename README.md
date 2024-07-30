@@ -2,7 +2,7 @@
 
 
 
-Disclaimer: This repository contains 100% code is in portuguese brazilian.
+Disclaimer: This repository contains 100% code is in portuguese Brazilian.
 
 Aviso: Este repositório contem código totalmente em português.
 ### Opções de Idioma / Language Options
@@ -17,7 +17,7 @@ Este repositório contém uma coleção de programas simples desenvolvidos duran
 ## Sumário
 
 ### [Lógica de Programação](#lógica-de-programação-1)
-- [Atividade 1](#atividade-1-o-básico-de-python): O basico de Python
+- [Atividade 1](#atividade-1-o-básico-de-python): O básico de Python
 - [Atividade 2](#atividade-2-scripts-utilizando-declarações-if-elif-else-for-while-e-def-com-validações): Scripts utilizando declarações `if`, `elif`, `else`, `for`, `while` e `def`. Além de aplicar validações
 - [Atividade 3](#atividade-3-conjunto-de-programas-abordando-contagem-contagem-regressiva-contagem-com-incremento-variável-leitura-de-números-pares-e-ímpares-sorteio-de-números-aleatórios-entre-outros-cada-questão-é-um-arquivo-separado): Conjunto de programas abordando diversos conceitos
 
@@ -30,16 +30,16 @@ Este repositório contém uma coleção de programas simples desenvolvidos duran
 
 ## Lógica de Programação
 <a name="lógica-de-programação"></a>
-### **Atividade 1**: O basico de Python
+### **Atividade 1**: O básico de Python
   - [Questão 01](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_01.py): Primeiro `Hello World`
   - [Questão 02](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_02.py): Primeiro uso do `input`
-  - [Questão 03](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_03.py): Uso de multiplos `input` para imprimir o nome e salário.
-  - [Questão 04](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_04.py): Leitura de números interios para mostrar a soma deles.
+  - [Questão 03](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_03.py): Uso de múltiplos `input` para imprimir o nome e salário.
+  - [Questão 04](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_04.py): Leitura de números inteiros para mostrar a soma deles.
   - [Questão 05](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_05.py): Leitura de notas e a realização da média.
   - [Questão 06](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_06.py): Mostrar o sucesso e antecessor de número.
   - [Questão 07](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_07.py): Leitura de um número real e a impressão de seu dobro a terça parte.
-  - [Questão 08](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_08.py): Coversão de metros para outras 7 medidas do Sistema Métrico.
-  - [Questão 09](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_09.py): Conversão monetaria R$ (Real) para $ (Dolar).
+  - [Questão 08](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_08.py): Conversão de metros para outras 7 medidas do Sistema Métrico.
+  - [Questão 09](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_09.py): Conversão monetária R$ (Real) para $ (Dólar).
   - [Questão 10](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_10.py): Cálculo da área a ser pintada e quantidade de tinta necessária para uma parede.
   - [Questão 11](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_11.py): Cálculo do valor de Delta para uma equação do segundo grau.
   - [Questão 12](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_12.py): Cálculo do preço promocional de um produto com desconto de 5%.
@@ -48,7 +48,7 @@ Este repositório contém uma coleção de programas simples desenvolvidos duran
   - [Questão 15](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_15.py): Cálculo do salário de um funcionário com base no número de dias trabalhados no mês.
   - [Questão 16](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2001/questao_16.py): Desafio de cálculo da redução do tempo de vida de um fumante baseado na quantidade de cigarros fumados diariamente e anos de hábito.
 ### **Atividade 2**: Scripts utilizando declarações `if`, `elif`, `else`, `for`, `while` e `def`. Além de aplicar validações.
-  - [Questão 01](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2002/questao_01.py): Verificação e aplicação de multa caso a velocidade de um carro ultrapasse 80Km/h.
+  - [Questão 01](UC3%20-%20Logica%20de%20Program%C3%A7%C3%A3o/Atividade%2002/questao_01.py): Verificação e aplicação de multa caso a velocidade de um carro ultrapasse 80 Km/h.
   - [Questão 02](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_02.py): Verificação da idade de uma pessoa para determinar se ela pode votar.
   - [Questão 03](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_03.py): Cálculo da média de um aluno e verificação se teve bom aproveitamento, baseado em duas notas.
   - [Questão 04](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_04.py): Verificação se um número inteiro é par ou ímpar.
@@ -88,17 +88,17 @@ Este repositório contém uma coleção de programas simples desenvolvidos duran
 <a name="programação-orientada-a-objetos"></a>
 
 ### **Atividade 1**: Scripts usando `class`.
-  - [Questão 01](UC4%20-%20Programação%20Orientada%20a%20Objetos/Atividade%20-%2001/Atividade%20-%201%20Heroi.py): Jogo em que 2 jogadores selecionam persoagens e seus ataques.
+  - [Questão 01](UC4%20-%20Programação%20Orientada%20a%20Objetos/Atividade%20-%2001/Atividade%20-%201%20Heroi.py): Jogo em que 2 jogadores selecionam personagens e seus ataques.
 ### **Atividade 2**:
   - [Questão 01](UC4%20-%20Programação%20Orientada%20a%20Objetos/Atividade%20-%2002/Questao_01.py): Implementa classes para calcular área e perímetro de circunferência, triângulo e quadrado.
 ### **Atividade 3**: Biblioteca usando classes em arquivos diferentes.
   - [Questão_01](UC4%20-%20Programação%20Orientada%20a%20Objetos/Atividade%20-%2003/Questao_01.py): WORK IN PROGRESS... <img src="https://media1.tenor.com/m/RVvnVPK-6dcAAAAC/reload-cat.gif" width="25" height="25" />
 ### **Atividade 4**: Restaurante com classes em arquivos diferentes.
-  - [Programa](UC4%20-%20Programação%20Orientada%20a%20Objetos/Atividade%20-%2004/App.py): Restaurante com capacidade de adicionar restaurantes, alterar status, adicionar itens ao cardapio.
+  - [Programa](UC4%20-%20Programação%20Orientada%20a%20Objetos/Atividade%20-%2004/App.py): Restaurante com capacidade de adicionar restaurantes, alterar status, adicionar itens ao cardápio.
 
 ### **API's**: Scripts usando API's and Ambientes Virtuais.
-  - [Atividade 01](UC4%20-%20Programação%20Orientada%20a%20Objetos/API's/Atividade%20-%2001/request_dollar.py): Um simples request de uma API que atualiza o valor do dolar.
-  - [Atividade 02](UC4%20-%20Programação%20Orientada%20a%20Objetos/API's/Atividade%20-%2001/request_restaurante_simples.py): Request de um JSON de restaurantes e cardapios.
+  - [Atividade 01](UC4%20-%20Programação%20Orientada%20a%20Objetos/API's/Atividade%20-%2001/request_dollar.py): Um simples request de uma API que atualiza o valor do dólar.
+  - [Atividade 02](UC4%20-%20Programação%20Orientada%20a%20Objetos/API's/Atividade%20-%2001/request_restaurante_simples.py): Request de um JSON de restaurantes e cardápios.
   - [Atividade 03](UC4%20-%20Programação%20Orientada%20a%20Objetos/API's/Atividade%20-%2001/request_restaurante_modificado.py): Request do JSON anterior, porem modificando as chaves, salvando localmente cada restaurante em arquivos separados.
   - [Output das Atividades 02 e 03](UC4%20-%20Programação%20Orientada%20a%20Objetos/API's/Atividade%20-%2001/output_files/): Arquivos JSON resultados da atividade 02 e 03.
   - [Atividade 04](UC4%20-%20Programação%20Orientada%20a%20Objetos/API's/Atividade%20-%2002/FastAPI.py): Utilização da FastAPI para mostrar uma pagina HTML e arquivos JSON.
@@ -116,7 +116,7 @@ This repository contains a collection of simple programs developed during my Sys
 - [Activity 2](#activity-2-scripts-using-if-elif-and-else-statements): Scripts using `if`, `elif`, and `else` statements
 - [Activity 3](#activity-3-set-of-programs-covering-various-concepts-such-as-counting-countdown-counting-with-variable-increment-reading-even-and-odd-numbers-random-number-drawing-among-others-each-question-is-a-separate-file): Set of programs covering various concepts
 
-### [Object Oriented Programing](#object-oriented-programing)
+### [Object Oriented Programming](#object-oriented-programing)
 - [Activity 1](#activity-1-scripts-using-class): Scripts using `class`.
 - [Activity 2](#activity-2): Simple class to calculate areas.
 - [Activity 3](#activity-3): Library program using class.
@@ -127,25 +127,25 @@ This repository contains a collection of simple programs developed during my Sys
 <a name="programing-logic"></a>
 
 ### **Activity 1**: Python Basics
-  - [Question 01](UC3%20-%20Logic%20Programming/Activity%2001/question_01.py): First `Hello World`
-  - [Question 02](UC3%20-%20Logic%20Programming/Activity%2001/question_02.py): First use of `input`
-  - [Question 03](UC3%20-%20Logic%20Programming/Activity%2001/question_03.py): Using multiple `input` to print name and salary
-  - [Question 04](UC3%20-%20Logic%20Programming/Activity%2001/question_04.py): Reading integers to display their sum
-  - [Question 05](UC3%20-%20Logic%20Programming/Activity%2001/question_05.py): Reading grades and calculating average
-  - [Question 06](UC3%20-%20Logic%20Programming/Activity%2001/question_06.py): Displaying successor and predecessor of a number
-  - [Question 07](UC3%20-%20Logic%20Programming/Activity%2001/question_07.py): Reading a real number and printing its double and third
-  - [Question 08](UC3%20-%20Logic%20Programming/Activity%2001/question_08.py): Converting meters to 7 other Metric System measures
-  - [Question 09](UC3%20-%20Logic%20Programming/Activity%2001/question_09.py): Currency conversion from R$ (Real) to $ (Dollar)
-  - [Question 10](UC3%20-%20Logic%20Programming/Activity%2001/question_10.py): Calculating area to be painted and amount of paint needed for a wall
-  - [Question 11](UC3%20-%20Logic%20Programming/Activity%2001/question_11.py): Calculating the value of Delta for a second-degree equation
-  - [Question 12](UC3%20-%20Logic%20Programming/Activity%2001/question_12.py): Calculating the promotional price of a product with a 5% discount
-  - [Question 13](UC3%20-%20Logic%20Programming/Activity%2001/question_13.py): Calculating the new salary of an employee with a 15% raise
-  - [Question 14](UC3%20-%20Logic%20Programming/Activity%2001/question_14.py): Calculating the total price to pay for car rental based on kilometers traveled and days rented
-  - [Question 15](UC3%20-%20Logic%20Programming/Activity%2001/question_15.py): Calculating the salary of an employee based on days worked in the month
-  - [Question 16](UC3%20-%20Logic%20Programming/Activity%2001/question_16.py): Challenge of calculating the reduction in the lifespan of a smoker based on daily cigarette consumption and years of habit
+  - [Question 01](UC3%20-%20Logic%20Programming/Activity%2001/question_01.py): First `Hello World`.
+  - [Question 02](UC3%20-%20Logic%20Programming/Activity%2001/question_02.py): First use of `input`.
+  - [Question 03](UC3%20-%20Logic%20Programming/Activity%2001/question_03.py): Using multiple `input` to print name and salary.
+  - [Question 04](UC3%20-%20Logic%20Programming/Activity%2001/question_04.py): Reading integers to display their sum.
+  - [Question 05](UC3%20-%20Logic%20Programming/Activity%2001/question_05.py): Reading grades and calculating the average.
+  - [Question 06](UC3%20-%20Logic%20Programming/Activity%2001/question_06.py): Displaying the successor and predecessor of a number.
+  - [Question 07](UC3%20-%20Logic%20Programming/Activity%2001/question_07.py): Reading a real number and printing it's double and third.
+  - [Question 08](UC3%20-%20Logic%20Programming/Activity%2001/question_08.py): Converting meters to 7 other Metric System measures.
+  - [Question 09](UC3%20-%20Logic%20Programming/Activity%2001/question_09.py): Currency conversion from R$ (Real) to $ (Dollar).
+  - [Question 10](UC3%20-%20Logic%20Programming/Activity%2001/question_10.py): Calculate the area to be painted and the amount of paint needed for a wall.
+  - [Question 11](UC3%20-%20Logic%20Programming/Activity%2001/question_11.py): Calculating the value of Delta for a second-degree equation.
+  - [Question 12](UC3%20-%20Logic%20Programming/Activity%2001/question_12.py): Calculating the promotional price of a product with a 5% discount.
+  - [Question 13](UC3%20-%20Logic%20Programming/Activity%2001/question_13.py): Calculating the new salary of an employee with a 15% raise.
+  - [Question 14](UC3%20-%20Logic%20Programming/Activity%2001/question_14.py): Calculating the total price to pay for car rental based on kilometers traveled and days rented.
+  - [Question 15](UC3%20-%20Logic%20Programming/Activity%2001/question_15.py): Calculating the salary of an employee based on days worked in the month.
+  - [Question 16](UC3%20-%20Logic%20Programming/Activity%2001/question_16.py): The challenge of calculating the reduction in the lifespan of a smoker based on daily cigarette consumption and years of habit.
 
 ### **Activity 2**: Scripts using `if`, `elif`, and `else` statements.
-  -  [Question 01](UC3%20-%20Logica%20de%20Programação/Atividade%2002/questao_01.py): Check and apply a fine if a car's speed exceeds 80Km/h.
+  -  [Question 01](UC3%20-%20Logica%20de%20Programação/Atividade%2002/questao_01.py): Check and apply a fine if a car's speed exceeds 80 Km/h.
   -  [Question 02](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_02.py): Check a person's age to determine if they can vote.
   -  [Question 03](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_03.py): Calculate a student's average and check if they performed well based on two grades.
   -  [Question 04](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_04.py): Check if an integer is even or odd.
@@ -157,17 +157,17 @@ This repository contains a collection of simple programs developed during my Sys
   -  [Question 10](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_10.py): Program to compare two integers and determine which is greater or if they are equal.
   -  [Question 11](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_11.py): Calculate the average of two student grades and display their academic status based on the achieved average.
   -  [Question 12](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_12.py): Calculate the area of a rectangular plot based on user-input width and length, categorizing it as standard, master, or VIP depending on the calculated area.
-  -  [Question 13](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_13.py): Calculate a new employee salary based on their years of service in the company.
+  -  [Question 13](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_13.py): Calculate a new employee's salary based on their years of service in the company.
   -  [Question 14](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_14.py): Redetermine the type of triangle based on the given sides. (Incomplete)
   -  [Question 15](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_15.py): Implement a Rock-Paper-Scissors game in Python.
   -  [Question 16](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_16.py): Implement a game where the player tries to guess a number randomly selected by the computer.
   -  [Question 17](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_17.py): Program to approve bank loans based on salary and home value.
   -  [Question 18](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_18.py): Calculate Body Mass Index (BMI) and classify the result into weight categories.
   -  [Question 19](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_19.py): Calculate car rental costs based on type (standard or luxury), rental days, and distance traveled.
-  -  [Question 20](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_20.py): Calculate points and financial gains based on monthly hours of physical activity, with different points rates per hour.
+  -  [Question 20](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_20.py): Calculate points and financial gains based on monthly hours of physical activity, with different point rates per hour.
   -  [Question 21](UC3%20-%20Logica%20de%20Programção/Atividade%2002/questao_21.py): Calculate new employee salaries based on current salary, gender, and years of service in the company, with different percentage increases.
 
-### **Activity 3**: Set of programs covering various concepts such as counting, countdown, counting with variable increment, reading even and odd numbers, random number drawing, among others. Each question is a separate file:
+### **Activity 3**: Set of programs covering various concepts such as counting, countdown, counting with variable increments, reading even and odd numbers, and random number drawing, among others. Each question is a separate file:
   - [Question 01](UC3%20-%20Logica%20de%20Programção/Atividade%203%20-%2024-05-24/questao_01.py): Print the variable `i`. (With `for`)
   - [Question 02](UC3%20-%20Logica%20de%20Programção/Atividade%203%20-%2024-05-24/questao_02.py): Count up to a number entered by the user. (With `for`)
   - [Question 03](UC3%20-%20Logica%20de%20Programção/Atividade%203%20-%2024-05-24/questao_03.py): Countdown marking numbers divisible by 4. (With `for`, `if` and `else`)
@@ -175,27 +175,27 @@ This repository contains a collection of simple programs developed during my Sys
   - [Question 05](UC3%20-%20Logica%20de%20Programção/Atividade%203%20-%2024-05-24/questao_05.py): Count adapted to work with any order of values.
   - [Question 06](UC3%20-%20Logica%20de%20Programção/Atividade%203%20-%2024-05-24/questao_06.py): Identification of even and odd numbers among 6 entered numbers.
   - [Question 07](UC3%20-%20Logica%20de%20Programção/Atividade%203%20-%2024-05-24/questao_07.py): Draw 20 numbers between 0 and 10, identify numbers above 5 and divisible by 3.
-  - [Question 08](UC3%20-%20Logica%20de%20Programção/Atividade%203%20-%2024-05-24/questao_08.py): Identify the highest and lowest prices among 8 products entered by the user.
-  - [Question 09](UC3%20-%20Logica%20de%20Programção/Atividade%203%20-%2024-05-24/questao_09.py): Calculate the average age, number of people over 18 years old and under 5 years old, and identify the oldest person among 10 individuals.
-  - [Question 10](UC3%20-%20Logica%20de%20Programção/Atividade%203%20-%2024-05-24/questao_10.py): Record the number of men and women registered, average age of the group and of the women, and number of women over 20 years old.
+  - [Question 08](UC3%20-%20Logica%20de%20Programção/Atividade%203%20-%2024-05-24/questao_08.py): Identify the highest and lowest prices among the 8 products entered by the user.
+  - [Question 09](UC3%20-%20Logica%20de%20Programção/Atividade%203%20-%2024-05-24/questao_09.py): Calculate the average age, and number of people over 18 years old and under 5 years old, and identify the oldest person among 10 individuals.
+  - [Question 10](UC3%20-%20Logica%20de%20Programção/Atividade%203%20-%2024-05-24/questao_10.py): Record the number of men and women registered, average age of the group and of the women, and the number of women over 20 years old.
   - [Question 11](UC3%20-%20Logica%20de%20Programção/Atividade%203%20-%2024-05-24/questao_11.py): Calculate the average height, number of people over 90kg, people under 50kg and under 1.60m, and people over 1.90m and over 100kg.
-  - [Question 12](UC3%20-%20Logica%20de%20Programção/Atividade%203%20-%2024-05-24/questao_12.py): Game where the user tries to guess a number drawn between 1 and 10 in 4 attempts.
+  - [Question 12](UC3%20-%20Logica%20de%20Programção/Atividade%203%20-%2024-05-24/questao_12.py): A game where the user tries to guess a number drawn between 1 and 10 in 4 attempts.
 
 ## Object-Oriented Programming
-<a name="object-oriented-programing"></a>
+<a name="object-oriented-programming"></a>
 ### Activity 1: Scripts using `class`.
-  - [Question 01](UC4%20-%20Object%20Oriented%20Programming/Activity%20-%2001/Activity%20-%201%20Hero.py): Game where 2 players select characters and their attacks.
+  - [Question 01](UC4%20-%20Object%20Oriented%20Programming/Activity%20-%2001/Activity%20-%201%20Hero.py): A game where 2 players select characters and their attacks.
 ### Activity 2: Simple class to calculate areas.
-  - [Question 01](UC4%20-%20Object%20Oriented%20Programming/Activity%20-%2002/Question_01.py): Implements classes to calculate area and perimeter of circle, triangle, and square.
+  - [Question 01](UC4%20-%20Object%20Oriented%20Programming/Activity%20-%2002/Question_01.py): Implements classes to calculate the area and perimeter of a circle, triangle, and square.
 ### Activity 3: Library program using class.
   - [Question_01](UC4%20-%20Programação%20Orientada%20a%20Objetos/Atividade%20-%2003/Questao_01.py): WORK IN PROGRESS... <img src="https://media1.tenor.com/m/RVvnVPK-6dcAAAAC/reload-cat.gif" width="25" height="25" />
 ### **Activity 4**: Restaurant program using class.
-  - [Programa](UC4%20-%20Programação%20Orientada%20a%20Objetos/Atividade%20-%2004/App.py): Restaurant with capacity to add more restaurants, change status, add itens to menu.
+  - [Programa](UC4%20-%20Programação%20Orientada%20a%20Objetos/Atividade%20-%2004/App.py): Restaurant with the capacity to add more restaurants, change status, and add items to the menu.
 
 ### **APIs en**: Scripts using APIs and Virtual Environments.
   - [Activity 01](UC4%20-%20Programação%20Orientada%20a%20Objetos/API's/Atividade%20-%2001/request_dollar.py): A simple request to an API that updates the dollar value.
   - [Activity 02](UC4%20-%20Programação%20Orientada%20a%20Objetos/API's/Atividade%20-%2001/request_restaurante_simples.py): Request for a JSON of restaurants and menus.
-  - [Activity 03](UC4%20-%20Programação%20Orientada%20a%20Objetos/API's/Atividade%20-%2001/request_restaurante_modificado.py): Request for the previous JSON, modifying the keys, saving each restaurant locally in separate files.
+  - [Activity 03](UC4%20-%20Programação%20Orientada%20a%20Objetos/API's/Atividade%20-%2001/request_restaurante_modificado.py): Request for the previous JSON, modify the keys, saving each restaurant locally in separate files.
   - [Output of Activities 02 and 03](UC4%20-%20Programação%20Orientada%20a%20Objetos/API's/Atividade%20-%2001/output_files/): JSON files resulting from activities 02 and 03.
   - [Activity 04](UC4%20-%20Programação%20Orientada%20a%20Objetos/API's/Atividade%20-%2002/FastAPI.py): Using FastAPI to display an HTML page and JSON files.
 

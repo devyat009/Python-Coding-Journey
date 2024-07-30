@@ -1,4 +1,8 @@
 {
     "docwriter.progress.trackMethods": true,
-    "python.REPL.enableREPLSmartSend": false
+    "python.REPL.enableREPLSmartSend": false,
+    "cSpell.language": "en,pt-BR",
+    "cSpell.words": [
+        "elif"
+    ]
 }
