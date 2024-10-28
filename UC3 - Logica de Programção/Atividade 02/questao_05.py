@@ -20,10 +20,12 @@ def e_numero(string):
 def bissexto(string):
     try: 
         # Caso termine em '0' retorna verdadeiro:
-        if str(string).endswith("0"):
+        if int(string) % 400 == 0:
             return True
         # Caso seja divisível por '4' retorna verdadeiro:
         elif int(string) % 4 == 0:
+            return True
+        elif int(string) % 100 == 0:
             return True
         else:
             return False
