@@ -1,0 +1,8 @@
+# 1 - OPCIONAL CRIAR VENV
+python -m venv env
+# Ativar a venv, lembrese de fazer no cmd duh
+.\env\Scripts\activate.bat
+
+
+# 2 - Instalar os requirimentos
+pip install -r requirements.txt
