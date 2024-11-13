@@ -1,13 +1,17 @@
 # Requisitar as informações da api: 
 # Retornar as chaves modificadas para uma pagina localhost
-
+# env
+# .\"UC5 - Interfaces\HtmlSites\env\Scripts\activate.bat"
 # Para executar o arquivo:
 # No Bash:
 # Navegue ate o arquivo
 # cd UC5\ -\ Interfaces/HtmlSites
-# $ fastapi dev FastAPI.py
+# $ fastapi dev MainApi.py
 # No CMD:
-# uvicorn FastAPI:read_page
+# cd "UC5 - Interfaces\HtmlSites"
+# uvicorn MainApi:read_page --reload
+# Ou
+# uvicorn MainApi:read_page --reload --factory
 
 # Paginas Acessiveis:
 # http://127.0.0.1:8000/api/xx
@@ -20,22 +24,22 @@ import requests
 
 import os
 from fastapi.responses import HTMLResponse
-app = FastAPI()
+app = FastAPI(title="Custom FastAPI")
 
 # Retornar uma pagina HTML simples.
-@app.get("/")
+@app.get("/", tags=["Redirect"])
 def read_page():
     '''
     Pagina Simples para redirecionar as outras URL's
     '''
-    with open(os.path.join(os.path.dirname(__file__), 'app/mainPage/main.html')) as f:
+    with open(os.path.join(os.path.dirname(__file__), 'app/mainPage/main.html'), encoding='utf-8') as f:
         content = f.read()
     return HTMLResponse(content=content)
 
 
-app.mount("/static", StaticFiles(directory=os.path.join(os.path.dirname(__file__), 'app/aula01')), name="static")
-@app.get("/aula01")
+app.mount("/static", StaticFiles(directory=os.path.join(os.path.dirname(__file__), 'app', 'aula01')), name="static")
+@app.get("/aula01", tags=["Aula 01"])
 def aula01_page():
-    with open(os.path.join(os.path.dirname(__file__), 'app/aula01/aula01.html')) as f:
+    with open(os.path.join(os.path.dirname(__file__), 'app/aula01/aula01.html'), encoding='utf-8') as f:
         content = f.read()
     return HTMLResponse(content=content)
