@@ -43,3 +43,7 @@ def aula01_page():
     with open(os.path.join(os.path.dirname(__file__), 'app/aula01/aula01.html'), encoding='utf-8') as f:
         content = f.read()
     return HTMLResponse(content=content)
+
+@app.post("/test", tags=["Test"])
+def test():
+    pass
