@@ -18,9 +18,16 @@
 # http://127.0.0.1:8000/api/xx
 # http://127.0.0.1:8000/
 
-from fastapi import FastAPI, Query
+from fastapi import FastAPI, HTTPException, Query
 from fastapi.staticfiles import StaticFiles
 import requests
+# Import Validadors
+from app.functions.validadors import validator
+from app.functions.errorhandler import errorhandler
+# Import DB
+from app.db.db import DataBase
+# Import entities models
+from app.entities.CadastroModel import CadastroData
 
 import os
 from fastapi.responses import HTMLResponse
@@ -45,5 +52,23 @@ def aula01_page():
     return HTMLResponse(content=content)
 
 @app.post("/test", tags=["Test"])
-def test():
-    pass
+def test(data: CadastroData):
+    try:
+        v = validator()
+        v.validate_email(data["email"])
+        v.validate_password(data["password"])
+        v.validate_telefone(data["telefone"])
+
+        # Save to the database (simplified example)
+        db = DataBase()
+        cursor = db.connection.cursor()
+        cursor.execute(
+            "INSERT INTO userdb (nome, telefone, email, usuario, senha) VALUES (?, ?, ?, ?, ?)",
+            ("Test User", data["telefone"], data["email"], "test_user", data["password"])
+        )
+        db.connection.commit()
+
+        return {"success": True, "message": "Data validated and stored!"}
+
+    except errorhandler as e:
+        raise HTTPException(status_code=400, detail={"errors": e.errors})

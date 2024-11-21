@@ -1,4 +1,4 @@
-import errorhandler
+from app.functions.errorhandler import errorhandler
 
 class validator:
     def __init__(self):
