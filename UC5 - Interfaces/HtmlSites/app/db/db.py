@@ -7,6 +7,6 @@ class DataBase:
 
     def create_table(self):
         connect_data = self.connection.cursor()
-        connect_data.execute("create table if not exists userdb(Id int auto_increment primary key not null, nome varchar(50) not null, telefone varchar(40) not null, email varchar(50) not null, usuario varchar(40) not null, senha varchar(16) not null)")
+        connect_data.execute("create table if not exists userdb(Id INTEGER PRIMARY KEY AUTOINCREMENT, nome varchar(50) NOT NULL, telefone varchar(40) NOT NULL, email varchar(50) NOT NULL, usuario varchar(40) NOT NULL, senha varchar(16) NOT NULL)")
 
     

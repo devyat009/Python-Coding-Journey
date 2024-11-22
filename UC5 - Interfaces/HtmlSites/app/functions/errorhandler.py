@@ -4,7 +4,7 @@ class errorhandler(Exception):
         super().__init__(self._format_message)
 
     def _format_message(self):
-        return f"A error occurred:\n" + "\n".join(f"    {error}" for error in self.errors)
+        return "Errors occurred:\n" + "\n".join(f" - {error}" for error in self.errors)
     
     def __str__(self) -> str:
         return self._format_message()

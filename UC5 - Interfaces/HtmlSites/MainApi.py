@@ -55,16 +55,14 @@ def aula01_page():
 def test(data: CadastroData):
     try:
         v = validator()
-        v.validate_email(data["email"])
-        v.validate_password(data["password"])
-        v.validate_telefone(data["telefone"])
-
-        # Save to the database (simplified example)
+        v.validate_email(data.email)
+        v.validate_password(data.senha)
+        v.validate_telefone(data.telefone)
         db = DataBase()
         cursor = db.connection.cursor()
         cursor.execute(
             "INSERT INTO userdb (nome, telefone, email, usuario, senha) VALUES (?, ?, ?, ?, ?)",
-            ("Test User", data["telefone"], data["email"], "test_user", data["password"])
+            (data.nome, data.telefone, data.email, data.usuario, data.senha)
         )
         db.connection.commit()
 
