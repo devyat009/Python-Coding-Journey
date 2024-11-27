@@ -51,6 +51,13 @@ def aula01_page():
         content = f.read()
     return HTMLResponse(content=content)
 
+app.mount("/static", StaticFiles(directory=os.path.join(os.path.dirname(__file__), 'app', 'aula02')), name="static")
+@app.get("/aula02", tags=["Aula 02"])
+def aula02_page():
+    with open(os.path.join(os.path.dirname(__file__), 'app/aula02/aula02.html'), encoding='utf-8') as f:
+        content = f.read()
+    return HTMLResponse(content=content)
+
 @app.post("/test", tags=["Test"])
 def test(data: CadastroData):
     try:
