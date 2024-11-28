@@ -1,26 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <style>
             @import url('/static/aula02.css');
-        </style>
-        <title>Aula 02</title>
-    </head>
-    <body>
-        <button class="btn_return" onclick="window.location.href='http://127.0.0.1:8000/'">Return</button>
-        <header>
-            <div class="heade">GG</div>
-        </header>
-        <div>
-            <h1 class="textt">Loja 171</h1>
+        </style> -->
+    <link rel="stylesheet" href="/static/aula02/aula02.css">
+    <title>Aula 02</title>
+</head>
+
+<body>
+    <header>
+        <div class="heade">
+            <div style="margin-left: 10px; margin-top: 10px; align-content: center; height: 100%; display: flex;">
+                <span class="fancy">Loja 171</span>
+                <nav role="navigation" class="primary-navigation">
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#">Categorias &dtrif;</a>
+                            <ul class="dropdown">
+                                <li><b href="#">Eletronicos</b></li>
+                                <li><b href="#">Moda</b></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Destaques</a></li>
+                        <li><a href="#">Carrinho</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-        <footer>
-            <div>Informações de Contato</div>
-            <div>Redes Sociais</div>
-            <div>e-mail: umseteumloja@gmail.com</div>
-        </footer>
-    </body>
+    </header>
+    <button class="btn_return" onclick="window.location.href='http://127.0.0.1:8000/'">Return</button>
+    <div>
+        <h1 class="textt">Loja 171</h1>
+    </div>
+
+
+    <footer class="page-footer">
+        <div style="margin-left: 10px;">Informações de Contato</div>
+        <div>Redes Sociais</div>
+        <div>e-mail: umseteumloja@gmail.com</div>
+    </footer>
+</body>
+
 </html>

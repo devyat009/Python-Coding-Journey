@@ -44,16 +44,16 @@ def read_page():
     return HTMLResponse(content=content)
 
 
-app.mount("/static", StaticFiles(directory=os.path.join(os.path.dirname(__file__), 'app', 'aula01')), name="static")
+app.mount("/static/aula01", StaticFiles(directory=os.path.join(os.path.dirname(__file__), 'app', 'aula01')), name="static_aula01")
 @app.get("/aula01", tags=["Aula 01"])
 def aula01_page():
     with open(os.path.join(os.path.dirname(__file__), 'app/aula01/aula01.html'), encoding='utf-8') as f:
         content = f.read()
     return HTMLResponse(content=content)
 
-app.mount("/static", StaticFiles(directory=os.path.join(os.path.dirname(__file__), 'app', 'aula02')), name="static")
+app.mount("/static/aula02", StaticFiles(directory=os.path.join(os.path.dirname(__file__), 'app', 'aula02')), name="static_aula02")
 @app.get("/aula02", tags=["Aula 02"])
-def aula02_page():
+def aula01_page():
     with open(os.path.join(os.path.dirname(__file__), 'app/aula02/aula02.html'), encoding='utf-8') as f:
         content = f.read()
     return HTMLResponse(content=content)
